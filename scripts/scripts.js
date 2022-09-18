@@ -1,4 +1,6 @@
 <script>
-        const date = { month:'numeric', day:'numeric', year:'numeric'};
-        document.getElementById('updateddate').innerHtml = date().toLocaleDateString('en-US', date);
-      </script>
+    const date = {month:`long`, day:`numeric`, year:`numeric`};
+    document.getElementById('updateddate').innerHtml = date().toLocaleDateString('en-US', date);
+</script>
+
+        

@@ -12,23 +12,23 @@ h3, h4, h5, h6{
 }
 
 /* Profile */
-body .profile-container{
+header {
   background-color: rgb(60,69,98);
   border-radius: 10px;
-  height: 250px;
   min-width: 600px;
   max-width: 1200px;
-  width: 40%;
+  height: 250px;
+  
 }
 
-.profile-container .family-pic .name{
+header .family-pic .name{
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
     padding: 10px;
 }
 
-.profile-container .name{
+header .name{
     grid-column-start: 2;
     grid-column-end: 3;
     text-align: center;
@@ -48,21 +48,26 @@ h1{
   color: white;
 }
 
+/* Main */
+body{
+  margin: auto;
+  width: 50%;
+}
+
 .assignment-title {
   color: rgb(60, 69, 98);
-  width: 40%;
   border-bottom: 2px solid rgb(60,69,98);
 }
 
-.lesson-list{
+main {
   font-family: 'PT Serif';
   line-height: 150%;
 }
 /* footer */
 .footer{
   background-color: rgb(60,69,98);
-  width: 40%;
   font-weight: 300;
+  line-height: 125%;
   align-content: center;
   color: white;
   }

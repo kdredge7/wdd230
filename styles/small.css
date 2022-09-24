@@ -1,0 +1,59 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Raleway:wght@300;600;700&display=swap');
+
+h1, h2{
+  font-weight: 800;
+}
+
+h3, h4, h5, h6{
+  font-weight: 200;
+}
+
+/* Profile */
+header {
+  width: auto;
+}
+
+header .name{
+  color: rgb(60, 69, 98);
+  font-size: 1;
+  
+}
+
+.family-pic {
+  width: 250px;
+  height: auto;
+  margin: 25px 0px 0px 0px;
+}
+
+/* Main */
+body{
+  font-family: 'Raleway', sans-serif;
+  margin: auto;
+  width: 50%;
+}
+
+.assignment-title {
+  color: rgb(60, 69, 98);
+  border-bottom: 2px solid rgb(60,69,98);
+  font-size: .75em;
+}
+
+main {
+  font-weight: 400;
+  line-height: 150%;
+}
+/* footer */
+footer{
+  background-color: rgb(60,69,98);
+  padding: 0px 10px 0px 10px;
+  font-weight: 300;
+  line-height: 125%;
+  color: white;
+  }
+
+footer h3 {
+align-content: center;
+padding: 10px;
+font-size: 10pt;
+}

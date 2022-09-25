@@ -1,21 +1,24 @@
-h1 {
+@media (min-width 800px) {
+
+    h1 {
     font-size: 72px;
-}
+    }
 
-h2 {
+    h2 {
     font-size: 30px;
-}
+        }
 
-body {
-    min-width: 751px;
-}
-.grid_container {
+    body {
+    min-width: 800px;
+    }
+    .grid_container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
     padding: 20px;
-}
+    }
 
-.visual_hierarchy .contrast .alignment{
+    .visual_hierarchy .contrast .alignment{
     align-items: center;
+    }
 }

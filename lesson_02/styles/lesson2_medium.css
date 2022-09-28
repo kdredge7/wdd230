@@ -1,4 +1,4 @@
-@media (min-width 401) {
+@media (max-width: 799) {
 
     h1 {
     font-size: 72px;
@@ -13,16 +13,10 @@
     }
     .grid_container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template: 1 fr 1fr/ 1fr 1fr 1fr;
+    grid-column: 1 / span 2;
     grid-gap: 20px;
     padding: 20px;
     }
 
-    .visual_hierarchy .contrast{
-    align-items: center;
-    }
-
-    .alignment{
-    align-items: center;
-    }
-}   
+    

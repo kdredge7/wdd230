@@ -39,7 +39,6 @@ body {
 body p {
   font-family: 'PT Serif', serif;
   line-height: 150%;
-  margin: 50px;
 }
 
 img {
@@ -51,8 +50,9 @@ img {
 footer {
   background-color: black;
    color: white;
-  height: 75px;
+  height: 50px;
   width: auto;
+  align-items: center;
 }
 
 .footer_info h5 {
@@ -60,9 +60,9 @@ footer {
   font-weight: 300;
   font-size: 10px;
   line-height: 150%;
+  text-align: center;
   padding: 10px;
   margin: 25px;
-  align-content: center;
 }
 
 

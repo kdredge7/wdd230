@@ -25,6 +25,14 @@ h3 {
     padding: 20px;
 }
 
+h4 {
+  size: 1em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+}
+
 a{
   color: gray;
 }

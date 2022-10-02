@@ -1,9 +1,6 @@
 header {
     display: flex;
-    grid-column: 1fr 1fr 1fr;
     background-color: white;
-    height: 200 px;
-    margin: 0px;
 }
 
 header h1 {
@@ -60,7 +57,6 @@ h3 {
 
 p {
   color: #29221d;
-  font-size: 26 px;
 }
 
 footer {

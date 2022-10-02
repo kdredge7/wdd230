@@ -1,8 +1,8 @@
 /* Typography */
 
-.container {
+.grid-container {
     display: grid;
-    grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr / 1fr 1fr;
+    grid-template-columns: auto auto;
     color: #29221d;
     text-align: center;
     align-content: center;

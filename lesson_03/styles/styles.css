@@ -13,8 +13,8 @@ header h1 {
 }
 header img {
     padding: 25px;
-    height: auto;
     width: 200px;
+    height: auto;
 }
 
 h1 {
@@ -65,7 +65,7 @@ p {
 
 footer {
     background-color: #c3b393;
-    height: 25px;
+    height: 50px;
 }
 
 .footer_info {

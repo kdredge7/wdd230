@@ -1,0 +1,40 @@
+/* Color-Scheme Grid */
+.container {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+  
+  .container > div {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 24px;
+  }
+  
+  .color1 {
+    background-color: #d8e1d3;
+  }
+  
+  .color2 {
+    background-color: #acb5a0;
+  }
+  
+  .color3 {
+    background-color: #c3b393;
+  }
+  
+  .color4 {
+    background-color: #4a675a;
+    color: #c3b393;
+  }
+  
+  .color5 {
+    background-color: #3a4a51;
+    color: #c3b393;
+  }
+  
+  .color6 {
+    background-color: #29221d;
+    color: #c3b393;
+  }
+  

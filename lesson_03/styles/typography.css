@@ -1,0 +1,79 @@
+/* Typography */
+
+.container {
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr / 1fr 1fr;
+    color: #29221d;
+    text-align: center;
+    align-content: center;
+  }
+  
+  h4 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #29221d;
+  }
+  
+  .item1 {
+    padding: 75px;
+    background-color: #d8e1d3;
+  }
+  
+  .item1_info {
+    padding: 75px;
+    background-color: #d8e1d3;
+  }
+  
+  .item2 {
+    padding: 75px;
+  }
+  
+  .item2_info {
+    padding: 75px;
+  }
+  
+  .item3 {
+    padding: 75px;
+    background-color: #d8e1d3;
+  }
+  
+  .item3_info {
+    padding: 75px;
+    background-color: #d8e1d3;
+  }
+  
+  .item4 {
+    padding: 75px;
+  }
+  
+  .item4_info {
+    padding: 75px;
+  }
+  
+  .item5 {
+    padding: 75px;
+    background-color: #d8e1d3;
+  }
+  
+  .item5_info {
+    padding: 75px;
+    background-color: #d8e1d3;
+  }
+  
+  .item6 {
+    padding: 75px;
+  }
+  
+  .item6_info {
+    padding: 75px;
+  }
+  
+  .item7 {
+    padding: 75px;
+    background-color: #d8e1d3;
+  }
+  
+  .item7_info {
+    padding: 75px;
+    background-color: #d8e1d3;
+  }

@@ -44,4 +44,8 @@
         text-decoration: none;
     }
 
+    body {
+        margin: auto;
+        width: 50%;
+    }
 }

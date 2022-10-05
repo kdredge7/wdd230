@@ -55,10 +55,8 @@ nav ul {
   }
 
 body {
-    max-width: 599px;
+    max-width: 600px;
     font-family: 'Poppins', sans-serif;
-    margin: auto;
-    width: 50%;
 }
 
 h3 {

@@ -6,43 +6,56 @@ header {
 header h1 {
     grid-column: 1 / span 2;
     padding: 75px 0;
-
 }
+
 header img {
-    padding: 25px;
+   /* First Edit 
+   padding: 25px;
     width: 200px;
-    height: auto;
+    height: auto; */
+    flex: 1 1 auto; 
 }
 
 h1 {
     font-weight: 600;
-    font-size: 30px;
+    font-size: 18px;
     color: #4a675a;
     text-align: center;
 }
 
-nav ul { 
-    margin: 0px;
-    display: flex;
-    background-color: #c3b393;
-}
-
-nav ul li { 
-    flex: 1 1 auto; 
-    color: white;
-    padding: 10px;
+nav ul {
     list-style-type: none;
-} 
-
-nav ul li a {
+    margin: 0;
+    padding: 0;
+    max-width: 599px;
+    background-color: #4a675a;
+      
+  }
+  
+  nav ul li a {
+    display: block;
     color: #fff;
+    padding: 8px 16px;
     text-align: center;
-    padding: 0.75rem;
     text-decoration: none;
-    font-size: 18px;
-}
+  }
+  
+  nav ul li { 
+      list-style-type: none;
+      border-bottom: 2px solid white;
+      padding: 5px;
+    
+  } 
+  
+
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #4a675a;
+    color: white;
+  }
 
 body {
+    max-width: 599px;
     font-family: 'Poppins', sans-serif;
     margin: auto;
     width: 50%;
@@ -60,7 +73,7 @@ p {
 }
 
 footer {
-    background-color: #c3b393;
+    background-color: #4a675a;
     height: 50px;
 }
 

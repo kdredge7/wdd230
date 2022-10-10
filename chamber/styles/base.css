@@ -220,4 +220,10 @@ nav ul li.active a {
     margin: 0;
   }
 
+  .current_date2 {
+    background-color: transparent;
+    color: #4a675a;
+    size: 1em;
+    padding: .75em;
+  }
   

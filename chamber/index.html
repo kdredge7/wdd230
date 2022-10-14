@@ -5,14 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="KT Dredge" content="Gem Valley Chamber of Commerce">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href = "favicon.ico" type="image/x-icon"/>
     <title>Gem Valley Chamber of Commerce | Southeastern Idaho</title>
 
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css"/>
-    <link rel="stylesheet" href="styles/medium.css"/>
-    <link rel="stylesheet" href="styles/large.css"/>
-    
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href = "images/favicon.ico" type="image/x-icon">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,11 +23,12 @@
         <div class= "title">
         <img id="logo_header" src="images/gem_valley_logo_white.png" alt="Gem Valley Chamber of Commerce Logo"/>
         <h1>Gem Valley Chamber of Commerce<br>
-          <div id="location">
-        Southeastern Idaho</h1> </div>
+            <div id="location">
+            Southeastern Idaho</h1> 
+            </div>
          </div>
-         <img id="facebook_icon" src="images/facebook.png" alt="Facebook Icon"/>
-         <img id="linkedin_icon" src="images/linkedin.png" alt="Linkedin Icon"/>
+         <img id="facebook_icon" src="images/facebook.png" alt="Facebook Icon">
+         <img id="linkedin_icon" src="images/linkedin.png" alt="Linkedin Icon">
         <div class="current_date"><span id="date"></span></div>
         <nav>
             <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button> 
@@ -44,15 +44,26 @@
 
       <main>
         <div class="call_to_action">
-          <h3>Call to Action</h3>
+          <img id="valley_image" src="images/gem_valley_hero_image.jpg" alt="Gem Valley Image">
+          <h3 class="welcome">Welcome to the Gem Valley</h3>
+          <button class="join_btn " type="clickable">Join the Chamber</button>
         </div>
     <div class="medium_container">
         <div class="event">
-          <h3>Event</h3>
+          <h3>Ribbon Cutting</h3>
+          <h4> Grandma's Kitchen</h4>
+          <p> Join us for the grand opening of the new cafe, Grandma's Kitchen<br>
+            Thursday at 1:00 p.m.
+            </p>
         </div>
 
         <div class="weather">
-            <h3>Weather</h3>
+            <h3>Weather</h3><br>
+            <h3 id="degrees">68°F</h3>
+            <img id="weather_icon" src="images/clear-sky.png" alt="overcast icon">
+            <p class="information"> Partly Cloudy <br>
+            Wind Speed: 8mph <br>
+            Wind Chill: 64°F </p>
         </div>
     </div>
 
@@ -66,7 +77,13 @@
 
         <div class="spotlight_container">
             <div id="spotlight_1">
-                <h3>Spotlight 1</h3>
+                <div class="spotlight_1_container"></div>
+                    <h3>Thankful Transport</h3>
+                    <img id="transport_icon" src="images/truck.png" alt="transport truck icon">
+                    <p><em>"We get it there for you!"</em></p>
+                </div>
+                    <p class="information"> hello@thankfultransport.com<br>
+                +999-999-9999</p>
             </div>
             <div id="spotlight_2">
                 <h3>Spotlight 2</h3>
@@ -86,9 +103,9 @@
         </div>
         <div class= "base_footer">
             <h5>&copy;2022<span id="year"></span> Gem Valley Chamber of Commerce <br>
-                KT Dredge | WDD 230 Project<br>
-                Updated Date: 
-                <div class="modified_date"><span id="modDate"></h5></span></div>
+                KT Dredge | WDD 230 Project<br> </h5>
+                <div class="modified_date">Updated Date:<span id="modDate"></span>
+                </div>
         </div>
     </footer>
     <script src = "scripts/date.js"></script>

@@ -6,15 +6,15 @@ main {
 }
 
 .call_to_action {
-    order: -2;
+    grid-row: 1/6;
 }
 
 .news_release {
-    order: -1;
+    grid-row: 2/6;
 }
 
 .spotlight_container {
-    order: -1;
+    grid-row: 3/6;
 }
 
 .spotlight_container {

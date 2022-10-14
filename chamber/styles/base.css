@@ -24,7 +24,7 @@ nav ul {
     display: none;
 }
 
-nav ul .open {
+.open {
     display: block;
 }
 
@@ -38,7 +38,7 @@ nav ul li a {
 
 nav ul li.active a {
     background-color: rgba(0,0,0,.2);
-    color: #fff:
+    color: #fff;
 }
 
 nav ul li a:hover {
@@ -47,7 +47,7 @@ nav ul li a:hover {
 
 nav ul li.active a {
     background-color: rgba(0,0,0,.2);
-    color: #fff:
+    color: #fff;
 }
 
 #hamburgerBtn span:nth-child(1) {
@@ -74,7 +74,6 @@ nav ul li.active a {
 
   header .title {
     display: flex;
-    flex-direction: columns;
     align-items: center;
   }
 
@@ -88,6 +87,12 @@ nav ul li.active a {
       font-weight: 600;
       color: #fff;
       
+  }
+
+  #location {
+    color: #fff;
+    font-size: .75em;
+    padding: 10px 0px;
   }
 
   #location {
@@ -112,17 +117,18 @@ nav ul li.active a {
   .current_date {
     background-color: #d8e1d3;
     size: 1em;
-    padding: .75em;
+    padding: 1em;
   }
-
+  
   h4 {
     font-weight: 400;
     padding: .5em;
     margin: 0;
   }
   
-  main {  display: grid;
-      grid-template-columns: 1fr;
+  main { 
+    display: grid;
+    grid-template-columns: 1fr;
     font-weight: 400;
   }
 
@@ -132,31 +138,71 @@ nav ul li.active a {
   }
   
   .call_to_action {
-    background-color: #d3d3d3;
-    height: 200px;
+    position: relative;
     width: auto;
-    padding: 25px;
-    margin: 40px;
+    margin: 0px;
   }
-  
+
+  #valley_image {
+  position: relative;
+  height: 50%; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+
+   .welcome {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    font-size: 2em;
+    color: #29221d;
+  }
+
+  .join_btn {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    color: #fff;
+    background-color: #4a675a;
+    border-radius: 15px;
+    size: 1.5em;
+    padding: 15px 15px;
+    color: #fff;
+  }
+
   .event {
-    background-color: #d3d3d3;
-    height: 200px;
-    width: auto;
+    background-color: #d8e1d3;
+    align-items: center;
     padding: 25px;
     margin: 20px 40px;
   }
   
   .weather {
-    background-color: #d3d3d3;
-    height: 200px;
-    width: auto;
+    display: flex;
+    content: wrap;
+    background-color: #d8e1d3;
     padding: 25px;
     margin: 20px 40px;
+    align-items: center;
+  }
+
+  #degrees {
+    padding: 10px;
+  }
+
+  #weather_icon {
+    width: 125px;
+    height: auto;
+    padding: 10px;
+  }
+
+  .information {
+    line-height: 1.5em;
+    padding: 10px;
   }
   
   .news_release {
-    background-color: #d3d3d3;
+    background-color: #d8e1d3;
     height: 200px;
     width: auto;
     padding: 25px;
@@ -168,11 +214,7 @@ nav ul li.active a {
   }
   
   .spotlight_container {
-    background-color: #d3d3d3;
-    height: 350px;
-    width: auto;
-    padding: 25px;
-    margin: 20px 40px;
+    background-color: #d8e1d3;
   }
   
   #spotlight_1 {
@@ -181,6 +223,17 @@ nav ul li.active a {
     padding: 25px;
     margin: 20px;
     width: auto;
+    align-items: center;
+  }
+
+  .spotlight_1_container {
+    display: flex;
+  }
+
+  #transport_icon {
+    width: 50px;
+    height: auto;
+    padding: 20px;
   }
   
   #spotlight_2 {
@@ -220,10 +273,10 @@ nav ul li.active a {
     margin: 0;
   }
 
-  .current_date2 {
+  .modified_date {
     background-color: transparent;
-    color: #4a675a;
+    color: #fff;
     size: 1em;
-    padding: .75em;
+    padding: 1em;
   }
   

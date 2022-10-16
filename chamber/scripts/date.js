@@ -1,4 +1,4 @@
-   /* Announcement Bar */ 
+   /* Announcement Bar 
    const meeting = document.getElementById("announcement").textcontent;
    
    const day = new Date();
@@ -10,8 +10,7 @@
     else {
          meeting.style.display = none;
     }
-   
-    
+    */ 
 
     /* Date Banner */
     const date = {weekday:"long", month:"long", day:"numeric", year:"numeric"};

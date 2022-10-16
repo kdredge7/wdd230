@@ -2,68 +2,108 @@
 
 main {
     display: grid;
-    grid-template-rows: auto;
+    width: 100%;
+    grid-template-columns: 1fr;
+}
+#valley_image {
+    width: 100%;
+    margin: 0;
 }
 
-.call_to_action {
-    grid-row: 1/6;
+.welcome {
+    margin-top: 50px;
+  }
+
+.join_btn {
+    left: 300px;
 }
 
-.news_release {
-    grid-row: 2/6;
-}
+  .news_release {
+    grid-column: 1;
+    grid-row: 2;
+    margin: 10px;
+    width: 100%;
+    text-align: center;
+  }
 
-.spotlight_container {
-    grid-row: 3/6;
-}
-
-.spotlight_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 200px;
-}
-
-.spotlight_container>* {
+.spotlight_containers {
+    grid-row: 3;
+    display: flex;
+    flex-direction: row;
     flex: 1 1;
-}
+    align-items: center;
+    margin: 5px 5px;
+}  
 
-.join { 
-    order: 2;
-    display: block;
-    background-color: #d3d3d3;
-    height: 200px;
-    width: auto;
-    padding: 25px;
-    margin: 20px 40px;
-}
+.spotlight1 {
+    width: 100%;
+  }
+  
+  .spotlight2 {
+   width: 100%;
+  }
 
 .medium_container {
-    order: 3;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    background-color: #d3d3d3;
-    height: 200px;
-    width: auto;
-    padding: 25px;
-    margin: 20px 40px;
-}
-
-.medium_container>* {
-    flex; 1 1;
+    grid-column: 1;
+    grid-row: 5;
+    display: flex;
+    flex-direction: row;
+    flex: 2 1 auto;
+    width: 100%;
+    background-color: #fff;
 }
 
 .event {
+    margin: 20px 20px;
+    background-color: #d8e1d3 !important;
+}
+
+.weather {
+    display: flex;
+    flex-direction: column;
+    background-color: #d8e1d3 !important;
+    padding: 0px;
+    margin: 20px 10px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .weather h3 {
+    padding: 0px;
+  }
+
+  #weather_icon {
+    width: 100px;
+    padding: 0px;
+  }
+
+.join {
+    display: block;
+    grid-row: 4;
+    background-color: #d8e1d3;
+    align-items: center;
+}
+
+.join h3 {
+    background-color: #4a675a;
+    width: 80%;
+    color: white !important;
+    border-radius: 15px;
+    size: 1.5em; 
+    padding: 15px 15px;
+}
+
+.join p {
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+}
+.event {
     background-color: #fff;
-    height: 100px;
-    margin: 10px;
-    width: auto;
 }
 
 .weather {
     background-color: #fff;
-    height: 100px;
-    margin: 10px;
-    width: auto;
 }
 }
 

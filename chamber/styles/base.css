@@ -2,6 +2,14 @@
     font-family: 'Poppins', sans-serif;
   }
   
+  #announcement {
+    background-color: #c3b393;
+    font-size: .75em;
+    font-weight: 600;
+    padding: 5px;
+    text-align: center;
+  }
+
   /* Navigation */
   nav button {
     margin: .2rem 2vw;
@@ -22,6 +30,7 @@ nav ul {
     padding: 0;
     margin: 0;
     display: none;
+    color: #29221d;
 }
 
 .open {
@@ -30,9 +39,10 @@ nav ul {
 
 nav ul li a {
     display: block;
-    padding: .8rem 2vw;
+    padding: 1rem 2vw;
+    font-weight: 600;
     text-decoration: none;
-    color: #4a675a;
+    color: #29221d !important;
     border-top: 1px solid rgba(0, 0, 0, .5);
 }
 
@@ -42,7 +52,7 @@ nav ul li.active a {
 }
 
 nav ul li a:hover {
-    background-color: #fff;
+    background-color: #c3b393;
 }
 
 nav ul li.active a {
@@ -70,10 +80,13 @@ nav ul li.active a {
   header {
     background-color: #4a675a;
     padding: 0;
+    width: 100%;
   }
 
   header .title {
     display: flex;
+    flex-direction: row;
+
     align-items: center;
   }
 
@@ -94,30 +107,27 @@ nav ul li.active a {
     font-size: .75em;
     padding: 10px 0px;
   }
-
-  #location {
-    font-size: .5em;
-    padding: 10px 0px;
+  .social_media {
+    align-items: right;
   }
-
   #facebook_icon {
     width: 3em;
     height: auto;
     font-size: .75em;
-    margin: 0px 20px 20px 20px;
-  }
+    }
   
   #linkedin_icon {
     width: 3em;
     height: auto;
     font-size: .75em;
-    margin: 0px 0px 20px 0px;
   }
 
   .current_date {
     background-color: #d8e1d3;
     size: 1em;
     padding: 1em;
+    text-align: center;
+    width: 100%;
   }
   
   h4 {
@@ -136,16 +146,28 @@ nav ul li.active a {
     font-size: 16px;
     font-weight: 400;
   }
+
+  h3 {
+    text-align: center;
+    color: #51433a;
+    font-size: 1.5em;
+  }
+
+  h4 {
+    font-size: 1em;
+    font-weight: 600;
+  }
   
   .call_to_action {
     position: relative;
+    align-items: center;
     width: auto;
     margin: 0px;
   }
 
   #valley_image {
   position: relative;
-  height: 50%; 
+  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   }
@@ -153,7 +175,7 @@ nav ul li.active a {
    .welcome {
     position: absolute;
     top: 100px;
-    left: 50px;
+    width: 100%;
     font-size: 2em;
     color: #29221d;
   }
@@ -170,19 +192,29 @@ nav ul li.active a {
     color: #fff;
   }
 
+  body {
+    color: #29221d;
+  }
+
   .event {
     background-color: #d8e1d3;
-    align-items: center;
+    text-align: center;
+    line-height: 1.5em;
     padding: 25px;
     margin: 20px 40px;
   }
+
+  #event_icon {
+    width: 100px;
+    height: auto;
+}
   
   .weather {
     display: flex;
     content: wrap;
     background-color: #d8e1d3;
     padding: 25px;
-    margin: 20px 40px;
+    margin: 0px 40px;
     align-items: center;
   }
 
@@ -196,60 +228,83 @@ nav ul li.active a {
     padding: 10px;
   }
 
-  .information {
+  .weather_information {
     line-height: 1.5em;
     padding: 10px;
   }
   
   .news_release {
     background-color: #d8e1d3;
-    height: 200px;
-    width: auto;
-    padding: 25px;
+    text-align: center;
+    line-height: 1.5em;
     margin: 20px 40px;
+    padding: 25px;
   }
 
   .join {
     display: none;
   }
   
-  .spotlight_container {
+  .spotlight_containers {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    align-items: center;
+    margin: 10px 40px;
+  }
+
+  .spotlight1 {
+    display: flex;
+    flex-direction: column;
     background-color: #d8e1d3;
+    padding: 10px;
+    width: 100%;
+    margin: 0px;
+    align-items: center;
   }
   
-  #spotlight_1 {
-    background-color: #fff;
-    height: 100px;
-    padding: 25px;
-    margin: 20px;
-    width: auto;
+  .spotlight2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #d8e1d3;
+    padding: 10px;
+    width: 100%;
+    margin: 20px 40px;
     align-items: center;
   }
 
-  .spotlight_1_container {
-    display: flex;
+  .spotlight_items {
+    align-items: center;
   }
 
-  #transport_icon {
-    width: 50px;
+  .caption {
+    text-align: center;
+    font-size: 1.5em;
+    font-style: italic;
+  }
+
+  .spotlight_information {
+    text-align: center;
+    line-height: 1.5em;
+    border-top: 2px solid #29221d;
+    border-width: 25%;
+    padding: 5px;
+  }
+
+
+  .spotlight_icon {
+    width: 100px;
     height: auto;
-    padding: 20px;
-  }
-  
-  #spotlight_2 {
-    background-color: #fff;
-    height: 100px;
-    padding: 25px;
-    margin: 20px;
-    width: auto;
+    align-content: center;
   }
 
-  #spotlight_3 {
+  .spotlight3 {
     display: none;
   }
   
   footer {
      background-color: #4a675a;
+     width: 100%;
      display: grid;
      grid-template-rows: 1fr .25fr;
   }

@@ -54,7 +54,6 @@ nav {
   background-color: #fff;
   padding: 0;
   margin: 0;
-  float: top right;
 }
 
 nav ul {
@@ -107,7 +106,6 @@ nav ul li a:hover {
 /* //////HEADER//////// */
 .title {
   display: flex;
-  flex-wrap: nowrap;
   align-items: center;
   width: 100%;
 }
@@ -118,31 +116,29 @@ nav ul li a:hover {
   padding: 25px;
 }
 
-#location {
-  color: #fff;
-  font-size: .5em;
-  padding: 10px 0px;
-}
 .social_media {
-  margin: 20px;
+  display: flex;
+  padding: 25px;
   }
 
 #facebook_icon {
   width: 3em;
   height: auto;
+  padding: 5%;
   font-size: .75em;
   }
 
 #linkedin_icon {
   width: 3em;
   height: auto;
+  padding: 5%;
   font-size: .75em;
 }
 
 .current_date {
   background-color: #d8e1d3;
   size: 1em;
-  padding: 1em;
+  padding: 2%;
   text-align: center;
 }
 /* ********************* */
@@ -185,7 +181,7 @@ width: 100%;
   color: #fff;
   background-color: #4a675a;
   border-radius: 15px;
-  size: 1.5em;
+  size: 50px;
   padding: 15px 15px;
   color: #fff;
 }
@@ -208,7 +204,6 @@ width: 100%;
 /* WEATHER */
 .weather {
   display: flex;
-  content: wrap;
   background-color: #d8e1d3;
   padding: 25px;
   margin: 20px 10px 0px 10px;
@@ -253,7 +248,7 @@ width: 100%;
     color: white !important;
     border-radius: 15px;
     width: 80%;
-    size: 1.5em; 
+    font-size: 1.5em; 
     align-items: center;
     padding: 15px 15px;
 }
@@ -287,7 +282,6 @@ width: 100%;
   text-align: center;
   line-height: 1.5em;
   border-top: 2px solid #29221d;
-  border-width: 25%;
   padding: 5px;
 }
 
@@ -362,7 +356,8 @@ footer {
 .modified_date {
   background-color: transparent;
   color: #fff;
-  size: 1em;
+  font-size: 1em;
   padding: 1em;
+  margin: 0 0 10px 0;
 }
 /* ********************* */

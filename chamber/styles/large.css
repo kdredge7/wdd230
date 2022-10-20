@@ -38,58 +38,119 @@ nav ul li a {
   }
 /* **************************** */
 
-main {
+/* ////// MAIN //////// */
+main { 
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 1fr;
+  grid-gap: 5px;
+  align-items: center;
+  align-content: center;
 }
 
-.call_to_action {
+.hero {
   grid-column: 2;
-  grid-row: 1 / 2;
-  height: 100%;
-  width: auto;
+  grid-row: 1 / span 2;
+  width: 100%;
+}
 
+.welcome {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.join_btn {
+  top: 200px;
+  left: 250px;
+}
+
+/* EVENT */
+.event {
+  grid-column: 1;
+  grid-row: 1;
+  margin: 20px 0 0 0;
+}
+
+/* WEATHER */
+.weather {
+  grid-column: 1;
+  grid-row: 2;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  margin: 0;
+  align-items: center;
+}
+
+#degrees {
+  padding: 0px;
+  margin: 0;
+}
+
+#weather_icon {
+  width: 125px;
+  height: auto;
+  padding: 0px;
+  margin: 0;
+}
+
+.weather_information {
+  text-align: center;
+  line-height: 1.5em;
+  padding: 10px;
+}
+
+/* JOIN */
 .join {
   display: block;
   grid-column: 1;
   grid-row: 3;
-  background-color: #d8e1d3;
   width: 100%;
-  align-items: center;
-  margin: 10px 10px;
-  padding: 10px;
 }
 
-.join h3 {
-  background-color: #4a675a;
-  width: 80%;
-  color: white !important;
-  border-radius: 15px;
-  size: 1.5em; 
-  padding: 15px 15px;
-}
 
-.join p {
-  font-style: italic;
-  text-align: center;
-  padding: 10px;
-}
-
+/* NEWS RELEASE */
 .news_release {
-  grid-column: 1;
+  grid-column: 2 / span 3;
   grid-row: 3;
-  padding: 10px;
-  margin: 10px;
 }
 
-.spotlight_containers {
-  grid-column: 3;
-  grid-row: 1 / 3;
+/* SPOTLIGHT CONTAINER */
+.spotlight_container {
   background-color: #d8e1d3;
-  grid-template-rows: 1fr;
+  grid-column: 4;
+  grid-row: 1 / span 3;
+  
+  display: flex;
+  flex-direction: column;
+  grid-gap: 1em;
+  margin: 0;
+  padding: 0;
+  align-content: center;
 }
 
+/* SPOTLIGHT 2 */
+.spotlight2 .caption {
+  font-size: 1em;
+  margin: 10px 0 0 0;
+}
+/* SPOTLIGHT 3 */
 .spotlight3 {
-  display: block;
+  display: grid;
+  display: flex;
+  flex-direction: column;
+  background-color: #d8e1d3;
+  padding: 10px;
+  width: 75%;
+  margin: 10px 0 0 0; 
+  align-items: center;
+}
+
+#icon3 {
+  width: 100px;
+  padding: 0;
+  margin: 0;
+}
+
 }

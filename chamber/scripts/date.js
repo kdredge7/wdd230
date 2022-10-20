@@ -1,16 +1,18 @@
-   /* Announcement Bar 
-   const meeting = document.getElementById("announcement").textcontent;
+   /* Announcement Bar  
+   const meeting = document.querySelector("#announcement").textcontent = '${date}';
    
    const day = new Date();
-   currentDate = date.getDay();
+   let day = date.getDay();
 
-   if (currentDate == 1 || currentDate == 2) {
+   if (day == 1 || day == 2) {
          meeting.style.display = block;
     } 
     else {
          meeting.style.display = none;
     }
-    */ 
+*/
+
+    
 
     /* Date Banner */
     const date = {weekday:"long", month:"long", day:"numeric", year:"numeric"};

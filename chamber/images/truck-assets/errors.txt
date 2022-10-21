@@ -1,0 +1,3 @@
+[10/20/2022, 10:10:27 PM] layer "50px.png, 100px.png, 200px.png": Duplicate path: 50px.png
+[10/20/2022, 10:10:27 PM] layer "50px.png, 100px.png, 200px.png": Duplicate path: 100px.png
+[10/20/2022, 10:10:27 PM] layer "50px.png, 100px.png, 200px.png": Duplicate path: 200px.png

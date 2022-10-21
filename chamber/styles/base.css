@@ -149,7 +149,7 @@ main {
   grid-template-columns: 1fr;
   font-weight: 400;
   width: auto;
-  align-items: center;
+  align-content: center;
 }
 
 .hero {

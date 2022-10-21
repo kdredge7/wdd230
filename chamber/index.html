@@ -20,13 +20,12 @@
 
 <body>
     <header>
-        <div id="announcement">
-        <p>Come join us for the chamber meet and greet Wednesday at 7:00 p.m</p>
+        <div id="banner">
         </div> 
     <div class= "title">
         <img id="logo_header" src="images/gem_valley_logo_white.png" alt="Gem Valley Chamber of Commerce Logo">
         <h1>Gem Valley Chamber of Commerce</h1><br>
-        
+
         <div class="social_media">
         <img id="facebook_icon" src="images/facebook.png" alt="Facebook Icon">
         <img id="linkedin_icon" src="images/linkedin.png" alt="Linkedin Icon">
@@ -66,11 +65,11 @@
 
         <div class="weather">
             <h3>Weather</h3><br>
-            <h3 id="degrees">68°F</h3>
+            <h3><span id="tempF">68</span>°F</h3>
             <img id="weather_icon" src="images/clear-sky.png" alt="overcast icon">
-            <p class="weather_information"> Partly Cloudy <br>
-            Wind Speed: 8mph <br>
-            Wind Chill: 64°F </p>
+            <p class="weather_information"> Partly Cloudy</p>
+            <p>Wind Speed: <span id="speed">8</span>mph </p>
+            <p>Wind Chill:<span id="windChill"></span></p>
         </div>
 
         <div class="news_release">
@@ -129,6 +128,7 @@
                 </div>
         </div>
     </footer>
+    <script src = "scripts/windchill.js"></script>
     <script src = "scripts/date.js"></script>
     <script src = "scripts/hamburger_menu.js"></script>
 </body>

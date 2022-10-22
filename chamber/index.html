@@ -17,38 +17,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 </head>
-
 <body>
     <header>
         <div id="banner">
         </div> 
-    <div class= "title">
-        <img id="logo_header" src="images/gem_valley_logo_white.png" alt="Gem Valley Chamber of Commerce Logo">
-        <h1>Gem Valley Chamber of Commerce</h1><br>
-
-        <div class="social_media">
-        <img id="facebook_icon" src="images/facebook.png" alt="Facebook Icon">
-        <img id="linkedin_icon" src="images/linkedin.png" alt="Linkedin Icon">
+        <div class= "title">
+            <img id="logo_header" src="images/gem_valley_logo_white.png" alt="Gem Valley Chamber of Commerce Logo">
+            <h1>Gem Valley Chamber of Commerce</h1>
+            <div class="social_media">
+                <img id="facebook_icon" src="images/facebook.png" alt="Facebook Icon">
+                <img id="linkedin_icon" src="images/linkedin.png" alt="Linkedin Icon">
+            </div>
         </div>
-    </div>
-    
-    <nav>
-        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button> 
-        <ul id="primaryNav">
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="#">Discover</a></li>
-            <li><a href="#">Directory</a></li>
-            <li><a href="#">Join</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button> 
+            <ul id="primaryNav">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
         <div class="current_date"><span id="date"></span></div>
-    
     </header>
-    
 
-      <main>
-        <div class="hero">
+    <main>
+         <div class="hero">
           <img id="valley_image" src="images/gem_valley_hero_image.jpg" alt="Gem Valley Image">
           <h3 class="welcome">Welcome to the Gem Valley</h3>
           <button class="join_btn">Join the Chamber</button>
@@ -65,9 +60,9 @@
 
         <div class="weather">
             <h3>Weather</h3><br>
-            <h3><span id="tempF">68</span>°F</h3>
             <img id="weather_icon" src="images/clear-sky.png" alt="overcast icon">
-            <p class="weather_information"> Partly Cloudy</p>
+            <h2><span id="tempF">68</span>°F</h2>
+            <p id="weather_information"> Partly Cloudy</p>
             <p>Wind Speed: <span id="speed">8</span>mph </p>
             <p>Wind Chill:<span id="windChill"></span></p>
         </div>
@@ -81,42 +76,42 @@
             <h3>Join Us!</h3>
             <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
         </div>
-    <section class="spotlight_container">
-        <div class="spotlight1">
-            <h3>Thankful Transport</h3>
-            <img id="icon1" src="images/truck.png" alt="transport truck icon">
-            <div class="caption">
-                <p>"We get it there for you!"</p>
+        <section class="spotlight_container">
+            <div class="spotlight1">
+                <h3>Thankful Transport</h3>
+                <img id="icon1" src="images/truck.png" alt="transport truck icon">
+                <div class="caption">
+                    <p>"We get it there for you!"</p>
                 </div>
-            <p class="spotlight_information"> hello@thankfultransport.com<br>
-                +999-999-9999</p>
+                <p class="spotlight_information"> hello@thankfultransport.com<br>
+                    +999-999-9999</p>
             </div>
 
-        <div class="spotlight2">
-            <h3>Stem Camp</h3>
-            <img id="icon2" src="images/stem.png" alt="stem icon">
-            <div class="caption">
-                <p>An after school instructional program.</p>
-            </div>
-             <p class="spotlight_information"> contact@bcestemcamp.com<br>
-                +999-999-9999 | Website</p>
+            <div class="spotlight2">
+                <h3>Stem Camp</h3>
+                <img id="icon2" src="images/stem.png" alt="stem icon">
+                <div class="caption">
+                    <p>An after school instructional program.</p>
+                </div>
+                <p class="spotlight_information"> contact@bcestemcamp.com<br>
+                    +999-999-9999 | Website</p>
             </div>
 
-        <div class="spotlight3">
-            <h3>Build A Treefort</h3>
-            <img id="icon3" src="images/treehouse.png" alt="stem icon">
-            <div class="caption">
-                <p>Over 1,000 Plans!</p>
-            </div>
-            <p class="spotlight_information"> contact@bcestemcamp.com<br>
-                +999-999-9999 | Website</p>
-        </div>
-    </section>
+            <div class="spotlight3">
+                <h3>Build A Treefort</h3>
+                <img id="icon3" src="images/treehouse.png" alt="stem icon">
+                <div class="caption">
+                    <p>Over 1,000 Plans!</p>
+                </div>
+                <p class="spotlight_information"> contact@bcestemcamp.com<br>
+                    +999-999-9999 | Website</p>
+            </div> 
+        </section>
     </main>
       
     <footer> 
         <div class= "footer_info">
-        <img id="logo_footer" src="images/gem_valley_logo_white.png" alt="Gem Valley Chamber of Commerce Logo">
+            <img id="logo_footer" src="images/gem_valley_logo_white.png" alt="Gem Valley Chamber of Commerce Logo">
             <h4> Gem Valley Chamber of Commerce | 108 Center St, Grace, ID 83241<br>
                 info@gemvalleychamber.com | (208)555-2525<br>
                 Location Map </h4>
@@ -124,10 +119,11 @@
         <div class= "base_footer">
             <h5>&copy;2022<span id="year"></span> Gem Valley Chamber of Commerce <br>
                 KT Dredge | WDD 230 Project<br> </h5>
-                <div class="modified_date">Updated Date: <span id="modDate"></span>
-                </div>
+            <div class="modified_date">Updated Date: <span id="modDate"></span>
+            </div>
         </div>
     </footer>
+    <script src = "scripts/banner.js"></script>
     <script src = "scripts/windchill.js"></script>
     <script src = "scripts/date.js"></script>
     <script src = "scripts/hamburger_menu.js"></script>

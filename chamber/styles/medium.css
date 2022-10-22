@@ -58,6 +58,11 @@ main {
   width: auto;
 }
 
+.join h3 {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* EVENT */
 .event {
   grid-column: 1 / span 2;

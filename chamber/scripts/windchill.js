@@ -9,7 +9,7 @@
         finalTemp = 35.74 + .6215 * tempF - 35.75 * speed ** .16 + .4275 * tempF * speed ** .16;
         
         if (tempF <= 50 && speed >3) {
-            return finalTemp;
+            finalTemp= finalTemp.toFixed(1)
         }  
         else {
             finalTemp = "n/a"

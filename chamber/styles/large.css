@@ -114,6 +114,7 @@ main {
 .news_release {
   grid-column: 2 / span 3;
   grid-row: 3;
+  width: auto;
 }
 
 /* SPOTLIGHT CONTAINER */
@@ -140,7 +141,7 @@ main {
   display: grid;
   display: flex;
   flex-direction: column;
-  background-color: #d8e1d3;
+  background-color: #fff;
   padding: 10px;
   width: 75%;
   margin: 10px 0 0 0; 

@@ -1,5 +1,6 @@
 * {
   font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
 }
 
 body {
@@ -148,8 +149,7 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   font-weight: 400;
-  width: auto;
-  align-content: center;
+  align-items: center;
 }
 
 .hero {
@@ -160,16 +160,15 @@ main {
 }
 
 #valley_image {
-background-image: none;
-background-repeat: no-repeat;
-position: relative;
-width: 100%;
+  background-image: none;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
 }
 
  .welcome {
   position: absolute;
-  top: 75px;
-  left: 25px;
+  top: 50px;
   font-size: 2em;
   color: #29221d;
 }
@@ -203,27 +202,39 @@ width: 100%;
 
 /* WEATHER */
 .weather {
-  display: flex;
-  background-color: #d8e1d3;
-  padding: 25px;
-  margin: 20px 10px 0px 10px;
-  width: 80%;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #d8e1d3;  
+  margin: 20px 0 0 0;
+  width:100%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
 }
-
-#degrees {
-  padding: 10px;
+.weather h3 {
+  grid-column: 1 / span 2;
+  padding: 0;
 }
 
 #weather_icon {
+  grid-column: 1;
   width: 125px;
   height: auto;
-  padding: 10px;
+  padding: 20%px;
+  margin: 0 0 0 15%;
 }
 
-.weather_information {
-  line-height: 1.5em;
-  padding: 10px;
+.weather h2{
+  padding: 20%;
+  font-size: 2em;
+}
+
+#weather_information {
+ grid-column: 1 / span 2;
+ font-weight: 600;
+ border-top: 2px solid #29221d;
+ border-top-width: 75%;
+ padding-top: 10px;
 }
 
 /* NEWS RELEASE */
@@ -263,7 +274,7 @@ width: 100%;
 .spotlight_container {
   display: flex;
   flex-direction: column;
-  background-color: #acb5a0;
+  background-color: #d8e1d3;
   width: 100%;
   margin: 20px 0 20px 0;
   padding: 20px 0 20px 0;
@@ -289,7 +300,7 @@ width: 100%;
 .spotlight1 {
   display: flex;
   flex-direction: column;
-  background-color: #d8e1d3;
+  background-color: #fff;
   padding: 10px;
   width: 75%;
   margin: 10px 0px 0px 0px;
@@ -306,7 +317,7 @@ width: 100%;
 .spotlight2 {
   display: flex;
   flex-direction: column;
-  background-color: #d8e1d3;
+  background-color: #fff;
   padding: 10px;
   width: 75%;
   margin: 10px 0px 10px 0px; 

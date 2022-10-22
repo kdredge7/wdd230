@@ -42,63 +42,28 @@ nav ul li a {
 main { 
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  grid-gap: 5px;
-  align-items: center;
-  align-content: center;
 }
 
 .hero {
   grid-column: 2;
-  grid-row: 1 / span 2;
-  width: 100%;
-}
-
-.welcome {
-  position: absolute;
-  top: 100px;
-  left: 100px;
-}
-
-.join_btn {
-  top: 200px;
-  left: 250px;
+  grid-row: 1 /span 2;
+  margin: 20px 20px 0 20px;
+  width: auto;
+  height: auto;
 }
 
 /* EVENT */
 .event {
   grid-column: 1;
   grid-row: 1;
-  margin: 20px 0 0 0;
+  margin: 20px 0 0 20px;
 }
 
 /* WEATHER */
 .weather {
   grid-column: 1;
   grid-row: 2;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  padding: 0px;
-  margin: 0;
-  align-items: center;
-}
-
-#degrees {
-  padding: 0px;
-  margin: 0;
-}
-
-#weather_icon {
-  width: 125px;
-  height: auto;
-  padding: 0px;
-  margin: 0;
-}
-
-.weather_information {
-  text-align: center;
-  line-height: 1.5em;
-  padding: 10px;
+  margin: 20px 0 0 20px;
 }
 
 /* JOIN */
@@ -106,36 +71,62 @@ main {
   display: block;
   grid-column: 1;
   grid-row: 3;
-  width: 100%;
+  margin: 20px 0 20px 20px;
 }
-
 
 /* NEWS RELEASE */
 .news_release {
-  grid-column: 2 / span 3;
+  grid-column: 2;
   grid-row: 3;
-  width: auto;
+  margin: 20px 20px 20px 20px;
 }
 
 /* SPOTLIGHT CONTAINER */
 .spotlight_container {
-  background-color: #d8e1d3;
-  grid-column: 4;
+  grid-column: 3;
   grid-row: 1 / span 3;
-  
   display: flex;
   flex-direction: column;
-  grid-gap: 1em;
-  margin: 0;
-  padding: 0;
-  align-content: center;
+  background-color: #d8e1d3;
+  width: 100%;
+  margin: 20px 0 20px 0;
+  padding: 20px 0 20px 0;
+  align-items: center;
+}
+
+.caption {
+  text-align: center;
+  font-size: 1.5em;
+  font-style: italic;
+  padding: 0px;
+  margin: 0px;
+}
+
+.spotlight_information {
+  text-align: center;
+  line-height: 1.5em;
+  border-top: 2px solid #29221d;
+  padding: 5px;
+}
+
+/* SPOTLIGHT 1 */
+.spotlight1 {
+  height: 75%;
+}
+
+#icon1 {
+  width: 75px;
 }
 
 /* SPOTLIGHT 2 */
-.spotlight2 .caption {
-  font-size: 1em;
-  margin: 10px 0 0 0;
+.spotlight2 {
+  height: 75%
 }
+
+#icon2 {
+  width: 75px;
+}
+
 /* SPOTLIGHT 3 */
 .spotlight3 {
   display: grid;
@@ -144,14 +135,14 @@ main {
   background-color: #fff;
   padding: 10px;
   width: 75%;
+  height: 75%;
   margin: 10px 0 0 0; 
   align-items: center;
 }
 
 #icon3 {
-  width: 100px;
+  width: 75px;
   padding: 0;
   margin: 0;
 }
-
 }

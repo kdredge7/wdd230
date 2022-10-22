@@ -30,6 +30,8 @@ main {
 .news_release {
   grid-column: 1 / span 3;
   grid-row: 2;
+  margin: 20px 0px 0 0px;
+  
 }
 
 /* SPOTLIGHT CONTAINER */
@@ -40,7 +42,8 @@ main {
   display: flex;
   flex-direction: row;
   grid-gap: 1em;
-  margin: 20px 20px 20px 20px;
+  width: 100%;
+  margin: 20px 0px 20px 0px;
   padding: 20px 20px 20px 20px;
   align-content: center;
 }
@@ -82,29 +85,24 @@ main {
   grid-row: 5;
   float: right;
   width: 100%;
-  display: flex;
-  flex-direction: column;
+  height: 100%;
+  display: grid;
   padding: 0px;
-  margin: 0;
+  margin: 20px 0 0 0;
   align-items: center;
 }
 
 #degrees {
   padding: 0px;
   margin: 0;
+  text-align: left;
 }
 
 #weather_icon {
-  width: 125px;
+  width: 100px;
   height: auto;
   padding: 0px;
   margin: 0;
-}
-
-.weather_information {
-  text-align: center;
-  line-height: 1.5em;
-  padding: 10px;
 }
 
 }

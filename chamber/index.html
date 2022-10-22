@@ -44,7 +44,14 @@
 
     <main>
          <div class="hero">
-          <img id="valley_image" src="images/gem_valley_hero_image.jpg" alt="Gem Valley Image">
+           <!-- <picture class="hero_image">
+                <source media="(min-width:390px)" srcset="images/wdd230-org-web-assets/small.jpg" width="400" height="267">
+                <source media="(min-width:799px)" srcset="images/wdd230-org-web-assets/medium.jpg" width="600" height="400">
+                <img src="images/wdd230-org-web-assets/large.jpg" alt="chamber" width="750" height="500">
+            </picture> -->
+            <picture>
+                <img id="valley_image" src="images/gem_valley_hero_image.jpg" alt="Gem Valley Image"> 
+            </picture> 
           <h3 class="welcome">Welcome to the Gem Valley</h3>
           <button class="join_btn">Join the Chamber</button>
         </div>
@@ -64,7 +71,7 @@
             <h2><span id="tempF">68</span>°F</h2>
             <p id="weather_information"> Partly Cloudy</p>
             <p>Wind Speed: <span id="speed">8</span>mph </p>
-            <p>Wind Chill:<span id="windChill"></span></p>
+            <p>Wind Chill:<span id="windchill"></span></p>
         </div>
 
         <div class="news_release">

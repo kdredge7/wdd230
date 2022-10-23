@@ -1,11 +1,11 @@
-@media (min-width:600px) and (max-width:799px) {
+@media (min-width:600px) and (max-width:899px) {
 
   /* ////// MAIN //////// */
 main { 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 10%;
-  align-items: center;
+  align-items: first baseline;
   align-content: center;
 }
 
@@ -13,6 +13,9 @@ main {
   grid-column: 1 / span 3;
   grid-row: 1;
   width: 100%;
+  align-items: first baseline;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .welcome {

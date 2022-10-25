@@ -34,9 +34,9 @@ h4 {
   margin: 0;
 }
 
-#announcement {
+#banner {
   background-color: #c3b393;
-  font-size: .75em;
+  font-size: .5em;
   font-weight: 600;
   padding: 5px;
   text-align: center;
@@ -112,7 +112,7 @@ nav ul li a:hover {
 }
 
 .logo_header {
-  width: 25%;
+  width: 100%;
   height: auto;
   padding: 25px;
 }
@@ -247,7 +247,7 @@ main {
   text-align: center;
   line-height: 1.5em;
   width: 100%;
-  margin: 20px 20px 0 20px;
+  margin: 20px 0px 0 0px;
   padding: 25px;
 }
 

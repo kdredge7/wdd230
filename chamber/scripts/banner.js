@@ -43,4 +43,4 @@
     }
   }
   
-bannerDisplay(dayName);
+bannerDisplay(date);

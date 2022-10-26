@@ -23,7 +23,7 @@
         </div> 
         <div class= "title">
             <picture class="logo_header">
-                <srcset="images/chamber-logo/gv_logo_200m.webp" source media="(min-width:600px)">
+                <source srcset="images/chamber-logo/gv_logo_200m.webp" source media="(min-width:600px)">
                 <srcset="images/chamber-logo/gv_logo_300l.webp" source media="(min-width:800px)"> 
                 <img src="images/chamber-logo/gv_logo_150small.webp" alt="chamber logo">         
             </picture>  
@@ -49,16 +49,10 @@
     <main>
          <div class="hero">
            <picture class="hero_image">
-                <srcset="images/wdd230-org-web-assets/medium.jpg" source media="(min-width:600px)">
-                <srcset="images/wdd230-org-web-assets/large.jpg" source media="(min-width:800px)">
-                <img src="images/wdd230-org-web-assets/small.jpg" alt="chamber">
+                <source srcset="images/wdd230-org-web-assets/medium.jpg" source media="(min-width:600px)" width="1000" height="auto">
+                <source srcset="images/wdd230-org-web-assets/large.jpg" source media="(min-width:800px)" width="799" height="auto">
+                <img src="images/wdd230-org-web-assets/small.jpg" alt="chamber" width="399" height="auto">
             </picture> 
-           <!-- <picture class="heroimg">
-                <img src="images/wdd230-org-web.jpg" alt="chamber" sizes="100vw"
-                srcset="images/wdd230-org-web-assets/small.jpg 400w,
-                images/wdd230-org-web-assets/medium.jpg 600w,
-                images/wdd230-org-web-assets/large.jpg 750w">
-            </picture> -->
             <!-- <picture>
                 <img id="valley_image" src="images/gem_valley_hero_image.jpg" alt="Gem Valley Image"> 
             </picture> -->
@@ -78,7 +72,7 @@
         <div class="weather">
             <h3>Weather</h3><br>
             <img id="weather_icon" src="images/clear-sky.png" alt="overcast icon">
-            <h2><span id="temperatureF">68</span>°F</h2>
+            <h2><span id="temperatureF">44</span>°F</h2>
             <p id="weather_information"> Partly Cloudy</p>
             <p>Wind Speed: <span id="windspeed">8</span>mph </p>
             <p>Wind Chill: <span id="windchill"></span></p>

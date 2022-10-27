@@ -8,4 +8,5 @@ body {
     flex-direction: column;
     max-width: 100%;
     height: auto;
+    transition-duration: 2s;
 }

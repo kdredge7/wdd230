@@ -8,5 +8,13 @@ body {
     flex-direction: column;
     max-width: 100%;
     height: auto;
-    transition-duration: 2s;
+}
+
+img [data-src] {
+filter: blur(.2em);
+}
+
+img {
+    filter: blur(0em);
+    transition: fliter .2s;
 }

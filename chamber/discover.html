@@ -45,7 +45,7 @@
             <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button> 
             <ul id="primaryNav">
                 <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Discover</a></li>
                 <li><a href="#">Directory</a></li>
                 <li><a href="#">Join</a></li>
                 <li><a href="#">Contact</a></li>
@@ -55,77 +55,13 @@
     </header>
 
     <main>
-         <div class="hero">
-           <picture class="hero_image">
-                <source srcset="images/wdd230-org-web-assets/medium.jpg" source media="(min-width:600px)" width="699" height="auto">
-                <source srcset="images/wdd230-org-web-assets/large.jpg" source media="(min-width:800px)" width="550" height="auto">
-                <img src="images/wdd230-org-web-assets/small.jpg" alt="chamber" width="399" height="auto">
-            </picture> 
-            <!-- <picture>
-                <img id="valley_image" src="images/gem_valley_hero_image.jpg" alt="Gem Valley Image"> 
-            </picture> -->
-          <h3 class="welcome">Welcome to the Gem Valley</h3>
-          <button class="join_btn">Join the Chamber</button>
-        </div>
-
-        <div class="event">
-          <h3>Ribbon Cutting</h3>
-          <h4> GRANDMA'S KITCHEN</h4>
-          <img id="event_icon" src="images/pie.png" alt="pie icon">
-          <p> Join us for the grand opening of the new cafe, Grandma's Kitchen,<br>
-            Thursday at 1:00 p.m. Thursday at 1:00 p.m.
-            </p>
-        </div>
-
-        <div class="weather">
-            <h3>Weather</h3><br>
-            <img id="weather_icon" src="images/clear-sky.png" alt="overcast icon">
-            <h2><span id="temperatureF">44</span>°F</h2>
-            <p id="weather_information"> Partly Cloudy</p>
-            <p>Wind Speed: <span id="windspeed">8</span>mph </p>
-            <p>Wind Chill: <span id="windchill"></span></p>
-        </div>
-
-        <div class="news_release">
-            <h3>News Release</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt eius earum totam quaerat iste modi. Alias est quis ullam, dignissimos impedit exercitationem sed eos architecto amet cum nisi quaerat consectetur!</p>
-        </div>
-
-        <div class="join">
-            <h3>Join Us!</h3>
-            <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
-        </div>
-        <section class="spotlight_container">
-            <div class="spotlight1">
-                <h3>Thankful Transport</h3>
-                <img id="icon1" src="images/truck.png" alt="transport truck icon">
-                <div class="caption">
-                    <p>"We get it there for you!"</p>
-                </div>
-                <p class="spotlight_information"> hello@thankfultransport.com<br>
-                    +999-999-9999</p>
-            </div>
-
-            <div class="spotlight2">
-                <h3>Stem Camp</h3>
-                <img id="icon2" src="images/stem.png" alt="stem icon">
-                <div class="caption">
-                    <p>An after school instructional program.</p>
-                </div>
-                <p class="spotlight_information"> contact@bcestemcamp.com<br>
-                    +999-999-9999 | Website</p>
-            </div>
-
-            <div class="spotlight3">
-                <h3>Build A Treefort</h3>
-                <img id="icon3" src="images/treehouse.png" alt="stem icon">
-                <div class="caption">
-                    <p>Over 1,000 Plans!</p>
-                </div>
-                <p class="spotlight_information"> contact@bcestemcamp.com<br>
-                    +999-999-9999 | Website</p>
-            </div> 
-        </section>
+        <div class= "title">
+        <h1>Discover the Gem Valley!</h1>
+            <picture class="discover_images">
+                <source srcset="images/discover-images/river_600x450" source media="(min-width:599px)" loading="lazy" width="600" height="450">
+                <source srcset="images/discover-images/river_800x600" source media="(min-width:799px)" loading="lazy" width="800" height="600"> 
+                <img src="images/discover-images/river_300x400" alt="Bear River" loading="lazy" width="300" height="400">         
+            </picture>  
     </main>
       
     <footer> 
@@ -147,7 +83,6 @@
         </div>
     </footer>
     <script src = "scripts/banner.js"></script>
-    <script src = "scripts/windchill.js"></script>
     <script src = "scripts/date.js"></script>
     <script src = "scripts/hamburger_menu.js"></script>
 </body>

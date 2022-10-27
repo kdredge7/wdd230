@@ -38,6 +38,22 @@ nav ul li a {
   }
 /* **************************** */
 
+.title h1 {
+  font-size: 2.5em;
+  justify-content: center;
+}
+
+.logo_header {
+  width: 40%;
+}
+
+.facebook {
+  margin: 0 10px 0 0;
+  }
+
+.linkedin {
+  margin: 0 0 0 10px;
+  }
 /* ////// MAIN //////// */
 main { 
   display: grid;
@@ -145,4 +161,9 @@ main {
   padding: 0;
   margin: 0;
 }
+
+.footer_info {
+  align-items: left;
+}
+
 }

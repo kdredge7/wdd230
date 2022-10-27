@@ -29,8 +29,16 @@
             </picture>  
             <h1>Gem Valley Chamber of Commerce</h1>
             <div class="social_media">
-                <img id="facebook_icon" src="images/facebook.png" alt="Facebook Icon">
-                <img id="linkedin_icon" src="images/linkedin.png" alt="Linkedin Icon">
+            <picture class="facebook">
+                <source srcset="images/social-media/facebook_50.png" source media="(min-width:599px)" width="50">
+                <source srcset="images/social-media/facebook_75.png" source media="(min-width:799px)" width="75">
+                <img src="images/social-media/facebook_25.png" alt="facebook icon" width="25">
+            </picture>
+            <picture class="linkedin">
+                <source srcset="images/social-media/linkedin_50.png" source media="(min-width:599px)" width="50">
+                <source srcset="images/social-media/linkedin_75.png" source media="(min-width:799px)" width="75">
+                <img src="images/social-media/linkedin.png" alt="linkedin icon" width="25">  
+            </picture>
             </div>
         </div>
         <nav>
@@ -50,7 +58,7 @@
          <div class="hero">
            <picture class="hero_image">
                 <source srcset="images/wdd230-org-web-assets/medium.jpg" source media="(min-width:600px)" width="699" height="auto">
-                <source srcset="images/wdd230-org-web-assets/large.jpg" source media="(min-width:800px)" width="799" height="auto">
+                <source srcset="images/wdd230-org-web-assets/large.jpg" source media="(min-width:800px)" width="550" height="auto">
                 <img src="images/wdd230-org-web-assets/small.jpg" alt="chamber" width="399" height="auto">
             </picture> 
             <!-- <picture>
@@ -122,10 +130,14 @@
       
     <footer> 
         <div class= "footer_info">
-            <img id="logo_footer" src="images/gem_valley_logo_white.png" alt="Gem Valley Chamber of Commerce Logo">
-            <h4> Gem Valley Chamber of Commerce | 108 Center St, Grace, ID 83241<br>
+            <picture class="logo_header">
+                <source srcset="images/chamber-logo/logo_300.webp" source media="(min-width:599px)" width="150">
+                <source srcset="images/chamber-logo/logo_400.webp" source media="(min-width:799px)" width="150"> 
+                <img src="images/chamber-logo/logo_200.webp" alt="chamber logo" width="100">         
+            </picture>  
+            <h2> Gem Valley Chamber of Commerce | 108 Center St, Grace, ID 83241<br>
                 info@gemvalleychamber.com | (208)555-2525<br>
-                Location Map </h4>
+                Location Map </h2>
         </div>
         <div class= "base_footer">
             <h5>&copy;2022<span id="year"></span> Gem Valley Chamber of Commerce <br>

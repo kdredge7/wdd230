@@ -21,6 +21,14 @@ h1 {
   color: #fff;
 }
 
+h2 {
+  font-weight: 400;
+  text-align: center;
+  font-size: .75em;
+  color: #fff;
+  margin: 0;
+}
+
 h3 {
   text-align: center;
   color: #51433a;
@@ -119,7 +127,7 @@ nav ul li a:hover {
 }
 
 .title h1 {
-  font-size: 1.5em;
+  font-size: 1em;
   margin: 0;
 }
 
@@ -128,17 +136,15 @@ nav ul li a:hover {
   padding: 25px;
   }
 
-#facebook_icon {
-  width: 3em;
-  height: auto;
+.facebook {
   padding: 5%;
+  margin: 0 5px 0 0;
   font-size: .75em;
   }
 
-#linkedin_icon {
-  width: 3em;
-  height: auto;
+.linkedin {
   padding: 5%;
+  margin: 0 0 0 5px;
   font-size: .75em;
 }
 
@@ -354,19 +360,17 @@ main {
 
 footer {
    background-color: #4a675a;
-   display: grid;
-   grid-template-rows: 1fr .25fr;
+}
+
+footer .logo_header {
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .footer_info {
   color: #fff;
   text-align: center;
   line-height: 1.5;
-}
-
-#logo_footer {
-  width: 20%;
-  height: auto;
 }
 
 .base_footer {

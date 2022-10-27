@@ -29,6 +29,10 @@ main {
   left: 250px;
 }
 
+.hero_image {
+  justify-content: center;
+}
+
 /* NEWS RELEASE */
 .news_release {
   grid-column: 1 / span 3;

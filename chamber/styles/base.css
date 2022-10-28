@@ -8,6 +8,7 @@ body {
   font-weight: 400;
   color: #29221d;
   margin: 0;
+  width: 100%;
 }
 
 header {
@@ -388,3 +389,29 @@ footer .logo_header {
   margin: 0 0 10px 0;
 }
 /* ********************* */
+
+/* ////// DISCOVER PAGE //////// */
+.discover-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.discover_images picture{
+  width: 100%;
+}
+
+.discover_images h1{
+  justify-content: center;
+  color: #29221d;
+  padding: 5%;
+}
+
+.discover_images p{
+  text-align: left;
+  line-height: 1.5em;
+  padding: 5%;
+}

@@ -55,17 +55,19 @@ nav ul li a {
   margin: 0 0 0 10px;
   }
 /* ////// MAIN //////// */
-main { 
+.home { 
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 1.5em;
 }
 
 .hero {
   grid-column: 2;
-  grid-row: 1 /span 2;
+  grid-row: 1;
   margin: 20px 20px 0 20px;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
 }
 
 /* EVENT */
@@ -73,13 +75,17 @@ main {
   grid-column: 1;
   grid-row: 1;
   margin: 20px 0 0 20px;
+  justify-content: center;
 }
 
 /* WEATHER */
 .weather {
   grid-column: 1;
   grid-row: 2;
-  margin: 20px 0 0 20px;
+  width: 100%;
+  margin: 0px;
+  align-items: center;
+  justify-content: center;
 }
 
 /* JOIN */
@@ -87,27 +93,23 @@ main {
   display: block;
   grid-column: 1;
   grid-row: 3;
-  margin: 20px 0 20px 20px;
+  margin: 0px 0 20px 0px;
+  align-items: center;
+  justify-content: center;
 }
 
 /* NEWS RELEASE */
 .news_release {
   grid-column: 2;
   grid-row: 3;
-  margin: 20px 20px 20px 20px;
+  width: 100%;
+  margin: 0 0 20px 0;
 }
 
-/* SPOTLIGHT CONTAINER */
+/* SPOTLIGHT  */
 .spotlight_container {
   grid-column: 3;
-  grid-row: 1 / span 3;
-  display: flex;
-  flex-direction: column;
-  background-color: #d8e1d3;
-  width: 100%;
-  margin: 20px 0 20px 0;
-  padding: 20px 0 20px 0;
-  align-items: center;
+  grid-row: 1 / span 3; 
 }
 
 .caption {
@@ -127,6 +129,8 @@ main {
 
 /* SPOTLIGHT 1 */
 .spotlight1 {
+  grid-column: 3;
+  grid-row: 1;
   height: 75%;
 }
 
@@ -136,6 +140,8 @@ main {
 
 /* SPOTLIGHT 2 */
 .spotlight2 {
+  grid-column: 3;
+  grid-row: 2;
   height: 75%
 }
 
@@ -145,6 +151,8 @@ main {
 
 /* SPOTLIGHT 3 */
 .spotlight3 {
+  grid-column: 3;
+  grid-row: 3;
   display: grid;
   display: flex;
   flex-direction: column;
@@ -166,4 +174,31 @@ main {
   align-items: left;
 }
 
+/* ////// DISCOVER PAGE //////// */
+main .discover_page {
+  align-items: center;
+  justify-content: center;
+}
+
+.discover_images picture{
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.discover_images h1{
+  color: #29221d;
+  width: 100%;
+  padding: 5%;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.discover_images p{
+  text-align: left;
+  line-height: 1.5em;
+  padding: 5%;
+}
 }

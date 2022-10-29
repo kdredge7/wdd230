@@ -12,11 +12,10 @@
     margin: 0 0 0 5px;
   }
   /* ////// MAIN //////// */
-main { 
+main .home{ 
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   column-gap: 10%;
-  align-items: first baseline;
   align-content: center;
 }
 
@@ -46,7 +45,7 @@ main {
 
 /* NEWS RELEASE */
 .news_release {
-  grid-column: 1 / span 3;
+  grid-column: 1 / span 2;
   grid-row: 2;
   margin: 20px 0px 0 0px;
   
@@ -55,7 +54,7 @@ main {
 /* SPOTLIGHT CONTAINER */
 .spotlight_container {
   background-color: #d8e1d3;
-  grid-column: 1 / span 3;
+  grid-column: 1 / span 2;
   grid-row: 3;
   display: flex;
   flex-direction: row;
@@ -99,11 +98,10 @@ main {
 
 /* WEATHER */
 .weather {
-  grid-column: 3;
+  grid-column: 2;
   grid-row: 5;
   float: right;
-  width: 100%;
-  height: 100%;
+  width: 80%;
   display: grid;
   padding: 0px;
   margin: 20px 0 0 0;
@@ -121,6 +119,31 @@ main {
   height: auto;
   padding: 0px;
   margin: 0;
+}
+
+/* ////// DISCOVER PAGE //////// */
+.discover_page {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.discover_images picture{
+  width: 100%;
+  align-items: center;
+}
+
+.discover_images h1{
+  align-content: center;
+  color: #29221d;
+  padding: 5%;
+}
+
+.discover_images p{
+  text-align: left;
+  line-height: 1.5em;
+  padding: 5%;
 }
 
 }

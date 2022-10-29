@@ -127,7 +127,7 @@ nav ul li a:hover {
 }
 
 .title h1 {
-  font-size: 1em;
+  font-size: 1.25em;
   margin: 0;
 }
 
@@ -157,7 +157,7 @@ nav ul li a:hover {
 /* ********************* */
 
 /* ////// MAIN //////// */
-main { 
+main .home{ 
   display: grid;
   grid-template-columns: 1fr;
   font-weight: 400;
@@ -181,6 +181,8 @@ main {
 .heroimg {
   width: 100%;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
  .welcome {
@@ -293,6 +295,7 @@ main {
 .spotlight_container {
   display: flex;
   flex-direction: column;
+  gap: 1em;
   background-color: #d8e1d3;
   width: 100%;
   margin: 20px 0 20px 0;
@@ -391,23 +394,23 @@ footer .logo_header {
 /* ********************* */
 
 /* ////// DISCOVER PAGE //////// */
-.discover-page {
-  display: flex;
-  flex-direction: column;
+main .discover_page {
   align-items: center;
   justify-content: center;
-  margin-right: auto !important;
-  margin-left: auto !important;
 }
 
 .discover_images picture{
   width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .discover_images h1{
-  justify-content: center;
   color: #29221d;
   padding: 5%;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
 }
 
 .discover_images p{

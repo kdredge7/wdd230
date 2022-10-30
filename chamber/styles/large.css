@@ -187,14 +187,15 @@ main .discover_page {
 }
 
 .discover_images picture img {
-  width: 80%;
+  width: 60%;
   height: auto;
-  justify-content: center;
-  transition: width 2s linear 1s;
+  margin-left: auto;
+  margin-right: auto;
+  transition: width 1.5s linear 1s;
 }
 
 .discover_images picture img:hover {
-  width: 100%;
+  width: 75%;
 }
 
 .discover_images h1{

@@ -150,7 +150,7 @@ nav ul li a:hover {
 
 .current_date {
   background-color: #d8e1d3;
-  size: 1em;
+  size: 5%;
   padding: 2%;
   text-align: center;
 }
@@ -204,7 +204,7 @@ main .home{
   color: #fff;
   background-color: #4a675a;
   border-radius: 15px;
-  size: 50px;
+  size: 4em;
   padding: 15px 15px;
   color: #fff;
 }
@@ -244,7 +244,7 @@ main .home{
   grid-column: 1;
   width: 125px;
   height: auto;
-  padding: 20%px;
+  padding: 20px;
   margin: 0 0 0 15%;
 }
 
@@ -257,7 +257,6 @@ main .home{
  grid-column: 1 / span 2;
  font-weight: 600;
  border-top: 2px solid #29221d;
- border-top-width: 75%;
  padding-top: 10px;
 }
 

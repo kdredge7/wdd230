@@ -167,6 +167,7 @@ main .home{
 .hero {
   position: relative;
   align-items: center;
+  text-align: center;
   width: auto;
   margin: 0px;
 }
@@ -178,11 +179,15 @@ main .home{
   width: 100%;
 }
 
-.heroimg {
+.hero_image {
   width: 100%;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+}
+
+.hero_image img {
+  width: 100%;
 }
 
  .welcome {
@@ -195,7 +200,7 @@ main .home{
 .join_btn {
   position: absolute;
   top: 200px;
-  left: 150px;
+  left: calc(50% - 89px);
   color: #fff;
   background-color: #4a675a;
   border-radius: 15px;
@@ -325,7 +330,7 @@ main .home{
   background-color: #fff;
   padding: 10px;
   width: 75%;
-  margin: 10px 0px 0px 0px;
+  margin: 10px 0px 10px 0px;
   align-items: center;
 }
 
@@ -395,22 +400,20 @@ footer .logo_header {
 
 /* ////// DISCOVER PAGE //////// */
 main .discover_page {
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-rows: 1fr;
 }
 
-.discover_images picture{
-  width: 100%;
+.discover_images picture img{
   align-items: center;
   justify-content: center;
 }
 
 .discover_images h1{
+  text-align: center;
   color: #29221d;
   padding: 5%;
   margin: 0;
-  justify-content: center;
-  align-items: center;
 }
 
 .discover_images p{

@@ -81,6 +81,11 @@ nav ul li a {
   object-fit: fill;
 }
 
+.welcome {
+  top: 100px;
+  left: calc(50% - 225px);
+}
+
 /* EVENT */
 .event {
   grid-column: 1;

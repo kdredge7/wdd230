@@ -188,7 +188,19 @@ nav ul li a {
 }
 
 .footer_info {
-  align-items: start;
+  display: flex;
+  height: 75px;
+  justify-content: center;
+}
+
+.footer_info h2 {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.logo_footer {
+  width: auto;
+  height: 100%;
 }
 
 /* ////// DISCOVER PAGE //////// */

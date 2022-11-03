@@ -57,8 +57,11 @@
     <main class="home">
         <div class="hero">
            <picture class="hero_image">
-               
-                <srcset source="images/wdd230-org-web-assets/medium.jpg"  media="(min-width:600px)">
+                <source media="(min-width:600px)" srcset="images/wdd230-org-web-assets/medium.jpg">
+                <source media="(min-width:800px)" srcset="images/wdd230-org-web-assets/large.jpg">
+                <img src="images/wdd230-org-web-assets/small.jpg" alt="chamber">
+            </picture> 
+                <!-- <srcset source="images/wdd230-org-web-assets/medium.jpg"  media="(min-width:600px)">
                 <srcset source="images/wdd230-org-web-assets/large.jpg"  media="(min-width:800px)">
                 <img src="images/wdd230-org-web-assets/small.jpg" alt="chamber">
             </picture> 

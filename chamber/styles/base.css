@@ -150,7 +150,7 @@ nav ul li a:hover {
 
 .current_date {
   background-color: #d8e1d3;
-  size: 5%;
+  size: 1em;
   padding: 2%;
   text-align: center;
 }
@@ -192,7 +192,8 @@ main .home{
 
  .welcome {
   position: absolute;
-  top: 50px;
+  top: 100px;
+  left: calc(50% - 225px);
   font-size: 2em;
   color: #29221d;
 }
@@ -204,7 +205,6 @@ main .home{
   color: #fff;
   background-color: #4a675a;
   border-radius: 15px;
-  size: 4em;
   padding: 15px 15px;
   color: #fff;
 }
@@ -369,7 +369,10 @@ footer {
    background-color: #4a675a;
 }
 
-footer .logo_header {
+.logo_footer {
+  width: 25%;
+  height: auto;
+  padding: .5em;
   margin-right: auto;
   margin-left: auto;
 }

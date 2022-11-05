@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -53,7 +53,7 @@
         </nav>
         <div class="current_date"><span id="date"></span></div>
     </header>
-    <main>
+    <main class="join-page">
         <h1>Join the Gem Valley Chamber of Commerce</h1>
         <p> The benefits of becoming a Chamber member are endless and are all designed to help you grow your business to success! We accept Master Card, Visa or American Express online or you may pay with check or cash by mail or in person. Be sure and add your email address to your application in order to receive our weekly events newsletter!</p>
         <h3>Membership Application</h3>
@@ -72,7 +72,7 @@
             <legend>Business Information</legend>
             <label class="top">Business Name/ Title* <input type="text" name="businessName" required></label>
             <label class="top">Business Position Title <input type="text" name="position"></label>
-            <label class="top">Business Description <input type="tel" name="description" placeholder="Briefly describe business..."></label>
+            <label class="top">Business Description <input type="text" id="description" name="description" placeholder="Briefly describe business..."></label>
         </fieldset>
 
         <fieldset>
@@ -83,9 +83,9 @@
             <label class="sbs"><input type="radio" name="audience" value="silver">Silver Membership</label>
             <label class="sbs"><input type="radio" name="audience" value="gold">Gold Membership</label>
         </fieldset>
-
-
-
+        <input type="hidden" id="postId" name="postId" value="34657">
+        <input type="submit" value="Join the Chamber" class="submitBtn">
+       
     </main>
     <footer> 
         <div class= "footer_info">

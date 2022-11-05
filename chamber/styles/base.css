@@ -432,18 +432,18 @@ main .discover_page {
 
 /* ////// FORM PAGE //////// */
 
-main h1 {
+ .join-page h1 {
   color: #29221d;
   margin-left: 2rem;
 }
 
-main p {
+  .join-page p {
   margin-left: 2rem;
   margin-right: 2rem;
   line-height: 1.5em;
 }
 
-main h3 {
+  .join-page h3 {
   margin-left: 2rem;
   margin-right: 2rem;
   text-align: left;
@@ -468,7 +468,7 @@ form legend {
 form label.top, form div {
     display: block;
     padding-top: 1rem;
-    color: #4a675a
+    color: #4a675a;
     font-size: .8rem;
 }
 
@@ -479,38 +479,45 @@ form label.top input, form label.top select {
     border: solid 1px #999;
     border-radius: 4px;
     padding: .75rem;
-    color: #555;
+    color: #c3b393;
     width: 100%;
     max-width: 20rem;
     background-color: rgba(0,0,0,.1);
 }
 
+form label.top #description {
+  padding-top: 3rem;
+}
+
+form label.top::placeholder {
+  justify-content: start;
+}
+
 form label.sbs {
     display: block;
-    padding: .75rem 0;
+    padding: .75rem;
     color: #555;
+}
+
+form label.sbs::value {
+ 
 }
 
 form input.submitBtn {
     border: none;
-    background-color: #9c2c13;
+    background-color: #4a675a;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
-    margin: 0 0 2rem 2%;
-    width: 96%;
+    margin: 0 0 2rem 2rem;
+    width: 50%;
     max-width: 20rem;
 }
 
 form label.top input:required {
     border-left: #4a675a solid 6px;
 }
-
-form label.top input:required:valid {
-    border-left: green solid 6px;
-}
-
-/*----- Clearfix: Force an Element not to collapse -----*/
+/* ////// FORM CLEARFIX //////// */
 .clearfix:after {
   content: "";
   display: table;

@@ -221,14 +221,14 @@ main .discover_page {
   width: 75%;
 }
 
-.discover_images h1{
+.discover_images h1 {
   color: #29221d;
   width: 100%;
   padding: 5%;
   margin: 0;
 }
 
-.discover_images p{
+.discover_images p {
   text-align: left;
   line-height: 1.5em;
   padding: 5%;

@@ -235,3 +235,9 @@ main .discover_page {
 }
 
 }
+
+/* ////// THANK YOU PAGE //////// */
+.thanks-image img {
+  width: 75%;
+  justify-content: center;
+}

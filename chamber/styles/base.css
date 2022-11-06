@@ -526,3 +526,36 @@ form label.top input:required {
 }
 
 /* ////// THANK YOU PAGE //////// */
+
+.thanks-page h1 {
+  color: #29221d;
+  text-align: center;
+  margin: 1rem;
+}
+
+  .thanks-page p {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  line-height: 1.5em;
+}
+
+  .thanks-page h3 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  text-align: left;
+  color: #29221d;
+  font-style: italic;
+  text-align: center;
+  padding: .5rem;
+}
+
+.teamwork .thanks-image picture {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.thanks-image img {
+  width: 100%;
+  height: auto;
+  align-items: center;
+}

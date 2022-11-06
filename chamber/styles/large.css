@@ -236,8 +236,21 @@ main .discover_page {
 
 }
 
+/* ////// JOIN PAGE //////// */
+form label.top input, form label.top select {
+  
+  padding: .75rem;
+  color: #29221d;
+  width: 75%;
+  max-width: 20rem;
+  background-color: rgba(0,0,0,.1);
+
 /* ////// THANK YOU PAGE //////// */
-.thanks-image img {
+.thanks-page picture {
+  width: 60%;
+}
+
+.thanks-page picture img {
   width: 75%;
   justify-content: center;
 }

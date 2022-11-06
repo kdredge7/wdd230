@@ -499,8 +499,12 @@ form label.sbs {
     color: #555;
 }
 
+form input[type="radio"] {  
+  margin-right: 10px;
+}
+
 form label.sbs::value {
- 
+    padding: .5rem;
 }
 
 form input.submitBtn {
@@ -549,12 +553,7 @@ form label.top input:required {
   padding: .5rem;
 }
 
-.teamwork .thanks-image picture {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.thanks-image img {
+.thanks-page picture img {
   width: 100%;
   height: auto;
   align-items: center;

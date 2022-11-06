@@ -432,7 +432,7 @@ main .discover_page {
 
 /* ////// FORM PAGE //////// */
 
- .join-page h1 {
+.join-page h1 {
   color: #29221d;
   margin-left: 2rem;
 }
@@ -517,9 +517,12 @@ form input.submitBtn {
 form label.top input:required {
     border-left: #4a675a solid 6px;
 }
+
 /* ////// FORM CLEARFIX //////// */
-form .clearfix:after {
+.join-page form .clearfix:after {
   content: "";
   display: table;
   clear: both;
 }
+
+/* ////// THANK YOU PAGE //////// */

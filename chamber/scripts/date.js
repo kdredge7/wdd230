@@ -3,9 +3,9 @@
     document.getElementById("date").textContent = new Date().toLocaleDateString("en-US", date);   
 
     // Current Time
-    const hours = d.getHours();
-    const mins = d.getMinutes();
-    const seconds = d.getSeconds();
+    const hours = getHours();
+    const mins = getMinutes();
+    const seconds = getSeconds();
     document.getElementById("time").value = hours + ":" + mins + ":" + seconds;
 
     //Copyright Year 

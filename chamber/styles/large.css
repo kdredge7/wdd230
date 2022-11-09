@@ -187,21 +187,8 @@ nav ul li a {
   margin: 0;
 }
 
-.footer_info {
-  display: flex;
-  height: 75px;
-  justify-content: center;
-}
+/* //// FOOTER //// */
 
-.footer_info h2 {
-  text-align: left;
-  margin-left: 10px;
-}
-
-.logo_footer {
-  width: auto;
-  height: 100%;
-}
 
 /* ////// DISCOVER PAGE //////// */
 main .discover_page {

@@ -188,7 +188,28 @@ nav ul li a {
 }
 
 /* //// FOOTER //// */
+.footer_info {
+  display: flex;
+  flex-direction: row;
+}
 
+img.logo_footer {
+  width: 10%;
+}
+
+.footer_info .logo_footer {
+  align-items: right;
+}
+
+.footer_info h2 {
+  text-align: left;
+  align-items: left;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  justify-content: center;
+}
+
+.
 
 /* ////// DISCOVER PAGE //////// */
 main .discover_page {

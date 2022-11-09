@@ -406,27 +406,39 @@ main .discover_page {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 20rem;
 }
 
-.discover_images picture img {
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
-.discover_images h1{
+.discover_page h1 {
   text-align: center;
   color: #29221d;
   padding: 5%;
   margin: 0;
 }
 
-.discover_images p{
+.discover_page article {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.discover_page picture img {
+ width: 100%;
+ height: auto;
+ padding: 0;
+}
+
+.discover_page img:hover {
+  transform: scale(82%);
+}
+
+.discover_page p{
   text-align: left;
   line-height: 1.5em;
-  padding: 5%;
+  padding: 1rem;
 }
 
 #lastVisit {
+  text-align: center;
   padding: 20px;
 }
 

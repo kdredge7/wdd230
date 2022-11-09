@@ -26,8 +26,9 @@
   ];
   
   const todayDate = new Date();
+   // console.log(dayName);
   const weekDayName = weekDayNames[todayDate.getDay()];
-  // console.log(dayName);
+ 
   
   const bannerDiv = document.getElementById('banner');
   const bannerText = document.createElement('h2');

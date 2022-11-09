@@ -234,6 +234,8 @@ main .discover_page {
   padding: 5%;
 }
 
+.discover_page img:hover {
+  transform: scale(82%);
 }
 
 /* ////// JOIN PAGE //////// */
@@ -244,13 +246,11 @@ form label.top input, form label.top select {
   width: 75%;
   max-width: 20rem;
   background-color: rgba(0,0,0,.1);
+}
 
 /* ////// THANK YOU PAGE //////// */
-.thanks-page picture {
+.thanks-page article {
   width: 60%;
 }
 
-.thanks-page picture img {
-  width: 75%;
-  justify-content: center;
 }

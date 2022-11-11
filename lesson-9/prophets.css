@@ -1,6 +1,67 @@
 
+header,
+main,
+footer {
+    font-family: 'Poppins', sans-serif;
+  margin: 1rem;
+  position: relative;
+}
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+h1 {
+  color: #434952;
+  border-bottom: 1px solid #eee;
+  text-shadow: 0 0 15px #777;
+  text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  color: #e5dfd8;
+  margin: 0 0 1rem 0;
+	 border-bottom: 3px solid #e5dfd8;
+}
+
+p {
+    color: #e5dfd8;
+  margin: 0;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+section {
+  margin: 0.25rem;
+  padding: 0.35rem;
+  background-color: #434952;
+  border: 1px solid #bbb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section > p {
+  min-height: 60px;
+}
+
+img {
+  width: auto;
+	max-width: 325px;
+  box-shadow: 0 0 30px #777;
+  height: 200px;
+  border: 1px solid #333;
+}
+
+.birthday {
+    padding-top: 2em;
+}
+
+.birthplace {
+    padding-top: -1em;
+}
+footer {
+  border-top: 1px solid #555;
+  padding: 20px;
 }

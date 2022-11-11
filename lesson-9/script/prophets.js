@@ -28,8 +28,8 @@ fetch(requestURL)
     portrait.setAttribute('src', prophet.imageurl);
     portrait.setAttribute('alt', `Portait of ${prophet.name}  ${prophet.lastname}`);
     portrait.setAttribute('loading', 'lazy');
-    birthplace.setAttribute('class', 'birthpl');
-
+    birthplace.setAttribute('class', 'birthplace');
+    birthdate.setAttribute('class', 'birthday')
     // Add/append the section(card) with the h2 element
     card.appendChild(h2);
     card.appendChild(portrait);

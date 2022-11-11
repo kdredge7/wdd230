@@ -150,7 +150,7 @@ nav ul li a:hover {
 
 .current_date {
   background-color: #d8e1d3;
-  size: 1em;
+  font-size: 1em;
   padding: 2%;
   text-align: center;
 }
@@ -509,10 +509,6 @@ form label.sbs {
 
 form input[type="radio"] {  
   margin-right: 10px;
-}
-
-form label.sbs::value {
-    padding: .5rem;
 }
 
 form input.submitBtn {

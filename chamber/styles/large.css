@@ -195,21 +195,16 @@ nav ul li a {
 
 img.logo_footer {
   width: 10%;
-}
-
-.footer_info .logo_footer {
-  align-items: right;
+  align-items: end;
 }
 
 .footer_info h2 {
   text-align: left;
-  align-items: left;
+  align-items: flex-start;
   padding-left: 1rem;
   padding-top: 1rem;
   justify-content: center;
 }
-
-.
 
 /* ////// DISCOVER PAGE //////// */
 main .discover_page {
@@ -243,7 +238,7 @@ main .discover_page {
 }
 
 .discover_page img:hover {
-  transform: scale(82%);
+  border:rgba(0, 0, 0, 0.3);
 }
 
 /* ////// JOIN PAGE //////// */

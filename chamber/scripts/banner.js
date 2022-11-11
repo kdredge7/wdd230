@@ -1,19 +1,3 @@
-/* Announcement Bar 
-<div id="announcement">
-        <p>Come join us for the chamber meet and greet Wednesday at 7:00 p.m</p>
-        </div> 
-
-   const meeting = document.querySelector("#announcement").textcontent = '${date}';
-   
-   const day = date.getDay();
-
-   if (day == 1 || day == 2) {
-         meeting.style.display = "block";
-    } 
-    else {
-         meeting.style.display = "none";
-    } */ 
-
    /* Announcement Bar */ 
    const weekDayNames = [
     "Sunday",

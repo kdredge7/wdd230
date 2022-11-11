@@ -1,4 +1,9 @@
 @media (min-width:600px) and (max-width:899px) {
+  .logo_header img {
+    width: 40%;
+  }
+  
+  
   .title h1 {
     font-size: 1.5em;
     justify-content: center;

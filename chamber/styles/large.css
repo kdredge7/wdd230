@@ -38,6 +38,10 @@ nav ul li a {
   }
 /* **************************** */
 
+.logo_header img {
+  width: 40%;
+}
+
 .title h1 {
   font-size: 2.5em;
   justify-content: center;

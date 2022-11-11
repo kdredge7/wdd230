@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="KT Dredge" content="Gem Valley Chamber of Commerce Business Directory">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Business Directory</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href = "images/favicon.ico" type="image/x-icon">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="banner">
+        </div> 
+        <div class= "title">
+            <picture class="logo_header">
+                <source srcset="images/chamber-logo/logo_300.webp" source media="(min-width:599px)" width="200">
+                <source srcset="images/chamber-logo/logo_400.webp" source media="(min-width:799px)" width="300"> 
+                <img src="images/chamber-logo/logo_200.webp" alt="chamber logo" width="100">         
+            </picture>  
+            <h1>Gem Valley Chamber of Commerce</h1>
+            <div class="social_media">
+            <picture class="facebook">
+                <source srcset="images/social-media/facebook_50.png" source media="(min-width:599px)" width="50">
+                <source srcset="images/social-media/facebook_75.png" source media="(min-width:799px)" width="75">
+                <img src="images/social-media/facebook_25.png" alt="facebook icon" width="25">
+            </picture>
+            <picture class="linkedin">
+                <source srcset="images/social-media/linkedin_50.png" source media="(min-width:599px)" width="50">
+                <source srcset="images/social-media/linkedin_75.png" source media="(min-width:799px)" width="75">
+                <img src="images/social-media/linkedin.png" alt="linkedin icon" width="25">  
+            </picture>
+            </div>
+        </div>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button> 
+            <ul id="primaryNav">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="current_date"><span id="date"></span></div>
+    </header>
+
+    <main class="directory-page">
+        
+
+    </main>
+
+    <footer> 
+        <div class= "footer_info">
+            <img class="logo_footer" src="images/chamber-logo/logo_200.webp" alt="chamber logo"> 
+            <h2> Gem Valley Chamber of Commerce | 108 Center St, Grace, ID 83241<br>
+                info@gemvalleychamber.com | (208)555-2525<br>
+                Location Map </h2>
+        </div>
+        <div class= "base_footer">
+            <h5>&copy;2022<span id="year"></span> Gem Valley Chamber of Commerce <br>
+                KT Dredge | WDD 230 Project<br> </h5>
+            <div class="modified_date">Last Updated: <span id="modDate"></span>
+            </div>
+        </div>
+    </footer>
+    <script src = "scripts/date.js"></script>
+    <script src = "scripts/hamburger_menu.js"></script>
+</body>
+</html>

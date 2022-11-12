@@ -1,0 +1,76 @@
+{
+    "businessDirectory" : [
+        {
+            "imageurl" : "images/directory-images/business_logo-01.png",
+            "name" : "Made to Venture",
+            "phone" : "(208)111-1111",
+            "website" : "www.madetoventure.com",
+            "address" : "1981 Niter Bench Rd. Grace, ID",
+            "membership" : "Gold"
+        },
+        {
+            "imageurl" :"images/directory-images/business_logo-02.png",
+            "name" : "J Harris Welding",
+            "phone" : "(208)222-2222",
+            "website" : "www.jhwelding.com",
+            "address" : "588 Lago View Rd. Grace, ID",
+            "membership" : "Bronze"
+        },
+        {
+            "imageurl" :"images/directory-images/business_logo-03.png",
+            "name" : "Sweet Bee Bakery",
+            "phone" : "(208)333-3333",
+            "website" : "www.sweetbeebakery.com",
+            "address" : "1st N 4th E Grace, ID",
+            "membership" : "Silver"
+        },
+        {
+            "imageurl" :"images/directory-images/business_logo-04.png",
+            "name" : "Locally Rooted",
+            "phone" : "(208)444-4444",
+            "website" : "www.locallyrooted.com",
+            "address" : "1st N 2nd W Grace, ID",
+            "membership" : "Silver"
+        },
+        {
+            "imageurl" :"images/directory-images/business_logo-05.png",
+            "name" : "Mound Valley Cattle",
+            "phone" : "(208)555-5555",
+            "website" : "www.moundvalleycattle.com",
+            "address" : "144 N. Hwy 34 Thatcher, ID",
+            "membership" : "Gold"
+        },
+        {
+            "imageurl" :"images/directory-images/business_logo-06.png",
+            "name" : "Ken's Garden Shoppe",
+            "phone" : "(208)666-6666",
+            "website" : "www.kensgarden.com",
+            "address" : "3rd N 2nd W Grace, ID",
+            "membership" : "Bronze"
+        },
+        {
+            "imageurl" :"images/directory-images/business_logo-07.png",
+            "name" : "AgriCustom",
+            "phone" : "(208)777-7777",
+            "website" : "www.agricustom.com",
+            "address" : "1st N 5th W Grace, ID",
+            "membership" : "Silver"
+        },
+        {
+            "imageurl" :"images/directory-images/business_logo-08.png",
+            "name" : "Gem Valley Grocery",
+            "phone" : "(208)888-8888",
+            "website" : "www.gemvalleygrocery.com",
+            "address" : "2nd N 2nd W Grace, ID",
+            "membership" : "Gold"
+        },
+        {
+            "imageurl" :"images/directory-images/business_logo-09.png",
+            "name" : "Carter Farms",
+            "phone" : "(208)999-9999",
+            "website" : "www.carterfarms.com",
+            "address" : "588 River Rd. Grace, ID",
+            "membership" : "Bronze"
+        }
+    ]
+}

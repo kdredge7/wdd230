@@ -11,7 +11,7 @@ fetch(requestURL)
     directory.forEach(displayDirectory);
   });
 
-  function displayProphets(prophet) {
+  function displayDirectory(directory) {
     // Create elements to add to the document
     let card = document.createElement('section');
     let h2 = document.createElement('h2');

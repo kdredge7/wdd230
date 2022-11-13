@@ -571,3 +571,28 @@ form label.top input:required {
 }
 
 /* ////// BUSINESS DIRECTORY PAGE //////// */
+directory-page .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.directory-page section .grid{
+  margin: 0.25rem;
+  padding: 0.35rem;
+  background-color: #434952;
+  border: 1px solid #bbb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.directory-page section > p {
+  min-height: 60px;
+}
+
+directory .cards img {
+  width: auto;
+	max-width: 325px;
+  box-shadow: 0 0 30px #777;
+  height: 200px;
+  border: 1px solid #333;
+}

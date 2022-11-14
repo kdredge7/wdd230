@@ -2,35 +2,40 @@ const requestURL = 'scripts/data.json';
 const cards = document.querySelector('.cards');
 
 fetch(requestURL)
-  .then(function (response) {
+  .then(function(response) {
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const directory = jsonObject['directory'];
+    console.log(jsonObject);  // temporary checking for valid response and data parsing
+    const directory = jsonObject['businessDirectory'];
     directory.forEach(displayDirectory);
   });
 
   function displayDirectory(directory) {
     // Create elements to add to the document
     let card = document.createElement('section');
-    let h2 = document.createElement('h2');
     let portrait = document.createElement('img');
+    let h2 = document.createElement('h2');
     let phone = document.createElement('p');
-    let birthplace = document.createElement('p');
-  
-    // Change the textContent property of the h2 element to contain the prophet's full name
-    h2.textContent = `${directory.name} ${directory.lastname}`;
-    phone.textContent = `Phone: ${directory.phone}.`;
-    website.textContent = `Website: ${directory.website}.`;
-    address.textContent = `Address: ${directory.address}.`;
-    membership.textContent = `Membership: ${directory.membership}.`;
+    let website = document.createElement('a');
+    let address = document.createElement('p');
+    let membership = document.createElement('p');
     
-    // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
+    // Change the textContent property of the h2 element to contain the prophet's full name
+    h2.textContent = `${directory.name}`;
+    phone.textContent = `Phone: ${directory.phone}`;
+    website.textContent = `Website: ${directory.website}`;
+    address.textContent = `Address: ${directory.address}`;
+    membership.textContent = `Membership: ${directory.membership}`;
+    
+    // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values.
     portrait.setAttribute('src', directory.imageurl);
     portrait.setAttribute('alt', `Logo for ${directory.name}`);
     portrait.setAttribute('loading', 'lazy');
-    cardInfo.setAttribute('class', 'phone, website, address');
+    phone.setAttribute('class', 'phone');
+    website.setAttribute('class', 'website');
+    address.setAttribute('class', 'address');
+    membership.setAttribute('class', 'membership');
     // Add/append the section(card) with the h2 element
     card.appendChild(h2);
     card.appendChild(portrait);

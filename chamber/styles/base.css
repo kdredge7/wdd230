@@ -441,7 +441,7 @@ main .discover_page {
   padding: 20px;
 }
 
-/* ////// FORM PAGE //////// */
+/* ////// JOIN PAGE //////// */
 
 .join-page h1 {
   color: #29221d;
@@ -571,28 +571,51 @@ form label.top input:required {
 }
 
 /* ////// BUSINESS DIRECTORY PAGE //////// */
-directory-page .cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+.directory-page h1 {
+  text-align: center;
+  font-size: 1.5em;
+  background-color: #d8e1d3;
+  color: #29221d;
+  padding: .5rem;
 }
 
-.directory-page section .grid{
+.directory-page .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.directory-page section {
   margin: 0.25rem;
   padding: 0.35rem;
-  background-color: #434952;
-  border: 1px solid #bbb;
+  background-color: #f3f0e9;
+  border: 6px solid #29221d;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.directory-page section > p {
-  min-height: 60px;
+
+.directory-page h2 {
+  font-size: 1.25em;
+  font-weight: 600;
+  text-align: center;
+  padding: .5em;
 }
 
-directory .cards img {
+.directory-page p {
+  padding: 0px;
+  margin: 0px;
+}
+
+.grid img {
   width: auto;
 	max-width: 325px;
-  box-shadow: 0 0 30px #777;
   height: 200px;
-  border: 1px solid #333;
+  background-color: transparent;
+}
+
+.directory-page section > p {
+  min-height: 60px;
 }

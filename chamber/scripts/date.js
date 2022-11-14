@@ -15,10 +15,11 @@
     const dateJoin = {weekday:"long", month:"long", day:"numeric", year:"numeric"};
     document.getElementById("formDate").textContent = new Date().toLocaleDateString("en-US", dateJoin);   
 
+    let currentDate = new Date();
     // Current Time on Join Page
-    const hours = getHours();
-    const mins = getMinutes();
-    const seconds = getSeconds();
+    const hours = currentDate.getHours();
+    const mins = currentDate.getMinutes();
+    const seconds = currentDate.getSeconds();
     document.getElementById("formTime").value = hours + ":" + mins + ":" + seconds;
 
     

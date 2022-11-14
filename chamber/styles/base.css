@@ -607,14 +607,14 @@ form label.top input:required {
 .grid img {
   width: auto;
 	max-width: 325px;
-  height: 200px;
   background-color: transparent;
 }
-
-.directory-page .phone {
+.directory-page .phone .website .address .membership {
   padding: 0;
   margin: 0;
 }
 
-
+.membership {
+  font-style: italic;
+}
 

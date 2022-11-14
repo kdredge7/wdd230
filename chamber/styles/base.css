@@ -604,11 +604,6 @@ form label.top input:required {
   padding: .5em;
 }
 
-.directory-page p {
-  padding: 0px;
-  margin: 0px;
-}
-
 .grid img {
   width: auto;
 	max-width: 325px;
@@ -616,6 +611,10 @@ form label.top input:required {
   background-color: transparent;
 }
 
-.directory-page section > p {
-  min-height: 60px;
+.directory-page .phone {
+  padding: 0;
+  margin: 0;
 }
+
+
+

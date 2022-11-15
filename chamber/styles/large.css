@@ -242,7 +242,8 @@ main .discover_page {
 }
 
 .discover_page img:hover {
-  border:rgba(0, 0, 0, 0.3);
+  transform: scale(0.9);
+  border: 6px solid #29221d;
 }
 
 /* ////// JOIN PAGE //////// */

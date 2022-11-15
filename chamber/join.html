@@ -63,7 +63,7 @@
             <legend>Member Information</legend>
             <label class="top">First Name* <input type="text" name="fname" required></label>
             <label class="top">Last Name* <input type="text" name="lname" required></label>
-            <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+            <label class="top"><Phone></Phone> <input type="tel" name="phone" required placeholder="1235551234"></label>
             <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
             <label class="top">Website <input type="url" name="url" placeholder="http://"></label>
         </fieldset>
@@ -79,9 +79,27 @@
             <legend>Membership Level</legend>
             <div>Membership Options</div>
             <label class="sbs"><input type="radio" name="audience" value="npMembership">NP Membership<br><em>(Non Profit Organizations) No Fee</em></label>
+            <ul id="nonprofit">
+                <li>All benefits as Silver</li>
+            </ul>
             <label class="sbs"><input type="radio" name="audience" value="bronze">Bronze Membership</label>
+            <ul id="bronze">
+                <li>Official Chamber framed Membership Certificate</li>
+                <li>Access to Chamber club to connect with 200+ members</li>
+            </ul>
             <label class="sbs"><input type="radio" name="audience" value="silver">Silver Membership</label>
+            <ul id="Silver">
+                <li>All benefits from the Bronze</li>
+                <li>Exclusive discounts in chamber publications</li>
+                <li>Opportunity to post events to the community calendar</li>
+            </ul>
             <label class="sbs"><input type="radio" name="audience" value="gold">Gold Membership</label>
+            <ul id="Gold">
+                <li>All benefits from the Silver</li>
+                <li>Two Complimentary luncheon tickets</li>
+                <li>Chamber referrals to your business</li>
+                <li>Access to the private Chamber Facebook Group to network</li>
+            </ul>
         </fieldset>
         <input type="hidden" id="formDate" name="date" value="">
         <input type="hidden" id="formTime" name="time" value="">

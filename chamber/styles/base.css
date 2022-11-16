@@ -510,8 +510,12 @@ form label.sbs {
     color: #555;
 }
 
-form input[type="radio"] {  
+form input[type="radio"] { 
   margin-right: 10px;
+}
+
+.join-page #nonprofit #bronze #silver #gold {
+  padding-top: 0;
 }
 
 form input.submitBtn {
@@ -577,6 +581,23 @@ form label.top input:required {
   background-color: #d8e1d3;
   color: #29221d;
   padding: .5rem;
+}
+
+.directory-page .viewButton {
+  size: 2em;
+  padding: 1em;
+  color: #29221d;
+  background-color: transparent;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #d8e1d3;
+}
+
+.btn .active {
+  background-color: #666;
+  color: white;
 }
 
 .directory-page .cards {

@@ -670,9 +670,8 @@ section {
 	display: none; /* smaller viewports only */
 }
 
-
-img {
+.directory-page img {
 	height: 75px;
-	max-width: 100%; /* Images are jerks - Seattle*/
+	max-width: 100%; /* Images */
 }
 

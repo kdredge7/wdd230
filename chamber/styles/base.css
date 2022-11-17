@@ -583,15 +583,21 @@ form label.top input:required {
   padding: .5rem;
 }
 
-.directory-page .viewButton {
+.directory-page .viewBtns {
   size: 2em;
   padding: 1em;
   color: #29221d;
-  background-color: transparent;
   text-align: center;
+  align-items: center;
 }
 
-.btn:hover {
+.viewBtns button {
+	border-radius: 15px;
+  padding: 15px 15px;
+  padding: .5rem;
+}
+
+button:hover {
   background-color: #d8e1d3;
 }
 
@@ -625,17 +631,48 @@ form label.top input:required {
   padding: .5em;
 }
 
-.grid img {
-  width: auto;
-	max-width: 325px;
-  background-color: transparent;
-}
-.directory-page .phone .website .address .membership {
-  padding: 0;
-  margin: 0;
-}
-
 .membership {
   font-style: italic;
+}
+
+article,
+section {
+	margin: 0.75rem;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	align-items: center;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	display: flex;
+	align-items: center;
+}
+
+.list section {
+	flex-direction: row;
+	justify-content: left;
+}
+
+.list section > * {
+	margin: 0 1rem;
+	text-align: left;
+}
+
+.list section img {
+	display: none; /* smaller viewports only */
+}
+
+
+img {
+	height: 75px;
+	max-width: 100%; /* Images are jerks - Seattle*/
 }
 

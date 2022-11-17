@@ -11,7 +11,7 @@ async function apiFetch() {
       const response = await fetch(apiURL);
       if (response.ok) {
         const data = await response.json();
-        // console.log(data); this is for testing the call
+        //console.log(data); this is for testing the call
         displayResults(data);
       } else {
         console.log(`Response not OK ${await response.text()}`);
@@ -30,7 +30,6 @@ async function apiFetch() {
 
   function displayResults(weatherData) {
     currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
-  
 
   const iconsrc = `https://openweathermap.org/img/wn/${weatherData.weather[0].icon}.png`;
   const desc = weatherData.weather[0].description;

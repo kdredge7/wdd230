@@ -234,34 +234,47 @@ main .home{
   background-color: #d8e1d3;  
   margin: 20px 0 0 0;
   width:75%;
+  justify-content: space-evenly;
   text-align: center;
   margin-right: auto;
   margin-left: auto;
 }
 .weather h3 {
   grid-column: 1 / span 2;
+}
+
+  #current {
+  grid-column: 1 / span 2;
+  /*background-color: rgba(255, 255, 255, 0.7);*/
+  border-bottom: 2px solid #29221d;
+  border-top: 2px solid #29221d;
+  font-style: italic;
+  line-height: 1.5em;
+  padding: 10px 20px 10px 20px;
+  margin: 0 20px 0 20px;
+}
+
+.weather h2 {
+  font-size: 2.5em;
+  color: #4a675a;
+}
+
+.weather figure {
+  justify-content: center;
+  align-items: center;
+  width: 75px;
   padding: 0;
 }
 
-#weather_icon {
-  grid-column: 1;
-  width: 125px;
-  height: auto;
-  padding: 20px;
-  margin: 0 0 0 15%;
+.weather figure img {
+  width: 100%;
 }
 
-.weather h2{
-  padding: 20%;
-  font-size: 2em;
+.weather p {
+  font-weight: 600;
+  padding: 1em;
 }
 
-#weather_information {
- grid-column: 1 / span 2;
- font-weight: 600;
- border-top: 2px solid #29221d;
- padding-top: 10px;
-}
 
 /* NEWS RELEASE */
 .news_release {

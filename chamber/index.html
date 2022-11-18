@@ -75,12 +75,18 @@
         </div>
 
         <div class="weather">
-            <h3>Weather</h3><br>
-            <img id="weather_icon" src="images/clear-sky.png" alt="overcast icon">
-            <h2><span id="temperatureF">44</span>°F</h2>
-            <p id="weather_information"> Partly Cloudy</p>
-            <p>Wind Speed: <span id="windspeed">8</span>mph </p>
-            <p>Wind Chill: <span id="windchill"></span></p>
+            <h3>Weather</h3>
+            <p id="current">Current Tempature<br>
+            Grace, Idaho</p>
+            <h2><span id="current-temp"></span> &deg;F</h2>
+            <figure>
+                <img src="" alt="" id="weather-icon">
+                <figcaption></figcaption>
+            </figure>
+            <p>Wind Speed:<br>
+                <span id="windspeed">8</span>mph </p>
+            <p>Wind Chill:<br>
+                <span id="wind-chill"></span></p>
         </div>
 
         <div class="news_release">
@@ -144,6 +150,7 @@
     <script src = "scripts/windchill.js"></script>
     <script src = "scripts/date.js"></script>
     <script src = "scripts/hamburger_menu.js"></script>
+    <script src = "scripts/weather-api.js"></script>
 </body>
 </html>
 

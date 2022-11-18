@@ -1,4 +1,4 @@
-// select HTML elements in the document
+/* select HTML elements in the document
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
@@ -36,4 +36,4 @@ async function apiFetch() {
   weatherIcon.setAttribute('alt', desc);
   captionDesc.textContent = desc;
 
-  }
+  } */

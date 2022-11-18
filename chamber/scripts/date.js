@@ -1,25 +1,28 @@
-    // Date Banner 
+    // Date Banner
     const date = {weekday:"long", month:"long", day:"numeric", year:"numeric"};
-    document.getElementById("date").textContent = new Date().toLocaleDateString("en-US", date);   
+    const currentDate = new Date();
+    const dateTime = currentDate.toLocaleDateString("en-US", date);
+    document.getElementById("date").textContent = dateTime;  
 
-    //Copyright Year 
-    const d = new Date();
-    d.setFullYear(2022);
-    document.getElementById("year").textcontent = d;
+    //Copyright Year
+    document.getElementById("year").textcontent = currentDate.setFullYear(2022);
 
     // Last day Modified Homepage
-    let text = document.lastModified;
+    const text = document.lastModified;
     document.getElementById("modDate").textContent = text;
 
     // Current Date on Join Page
-    const dateJoin = {weekday:"long", month:"long", day:"numeric", year:"numeric"};
-    document.getElementById("formDate").textContent = new Date().toLocaleDateString("en-US", dateJoin);   
+    const dateForm = document.getElementById("formDate");
+    if (dateForm !== null) {
+        dateForm.textContent = dateTime;
+    }
 
-    let currentDate = new Date();
     // Current Time on Join Page
     const hours = currentDate.getHours();
     const mins = currentDate.getMinutes();
     const seconds = currentDate.getSeconds();
-    document.getElementById("formTime").value = hours + ":" + mins + ":" + seconds;
-
+    const timeForm = document.getElementById("formTIme");
+    if (timeForm !== null) {
+        timeForm.value = hours + ":" + mins + ":" + seconds;
+    }
     

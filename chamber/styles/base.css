@@ -264,8 +264,9 @@ main .home{
 }
 
 .weather figure {
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
+  margin: auto;
   width: 75px;
   padding: 0;
 }

@@ -10,9 +10,10 @@
         } else{
           return "N/A";
         }
+
       }
-      
       document.getElementById("windchill").innerHTML =  chillF(temperature, windSpeed);
+     
          
 
     

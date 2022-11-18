@@ -44,6 +44,7 @@ figure img {
 figcaption {
     text-align: center;
     font-weight: 600;
+    text-transform: capitalize;
 }
 
 img {

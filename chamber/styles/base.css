@@ -243,9 +243,8 @@ main .home{
   grid-column: 1 / span 2;
 }
 
-  #current {
+  .weather #current {
   grid-column: 1 / span 2;
-  /*background-color: rgba(255, 255, 255, 0.7);*/
   border-bottom: 2px solid #29221d;
   border-top: 2px solid #29221d;
   font-style: italic;
@@ -257,6 +256,11 @@ main .home{
 .weather h2 {
   font-size: 2.5em;
   color: #4a675a;
+  align-self: center;
+}
+
+.weather figcaption {
+  text-transform: capitalize;
 }
 
 .weather figure {
@@ -405,6 +409,10 @@ footer {
   font-size: .9em;
   padding: 0;
   margin: 0;
+}
+
+.base_footer a {
+  color: white;
 }
 
 .modified_date {
@@ -659,19 +667,21 @@ section {
 	align-items: center;
 }
 
-.list {
+/*.list {
 	display: flex;
 	flex-direction: column;
+} */
+
+.directory-page .list {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  width: 100%;
 }
 
 .list section {
 	display: flex;
 	align-items: center;
-}
-
-.list section {
-	flex-direction: row;
-	justify-content: left;
 }
 
 .list section > * {

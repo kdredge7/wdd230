@@ -1,5 +1,5 @@
 
-    function chillF(temperature, windSpeed) {
+    function chillF(temp, wind) {
         const tempF = document.getElementById("current-temp").textContent;
         const temp = parseInt(tempF);
         const windS = document.getElementById("wind-speed").textContent;
@@ -8,15 +8,15 @@
           const chilly = (35.74 + (0.6215 * temp) - (35.75 * wind**0.16) + (0.4275 * temp * wind ** 0.16)).toFixed(0);
           return chilly + `°F`;
         } else{
-          return "N/A";
+          return "N/A"
         }
 
       }
-      document.getElementById("windchill").innerHTML =  chillF(temperature, windSpeed);
+      document.getElementById("windchill").innerHTML =  chillF(temp, wind);
      
          
 
     
 
           
-    
+     

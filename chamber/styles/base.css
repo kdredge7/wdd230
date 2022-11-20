@@ -603,7 +603,7 @@ form label.top input:required {
   background-color: #d8e1d3;
   color: #29221d;
   padding: .5rem;
-}
+} 
 
 .directory-page .viewBtns {
   padding: 1em;
@@ -614,7 +614,7 @@ form label.top input:required {
 
 .viewBtns button {
 	border-radius: 15px;
-  padding: 15px 15px;
+  padding: 20px 20px;
   padding: .5rem;
 }
 
@@ -638,7 +638,9 @@ form label.top input:required {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
+
 
 .directory-page h2 {
   font-size: 1.25em;
@@ -657,24 +659,24 @@ form label.top input:required {
   font-style: italic;
 }
 
-article,
+/* article,
 section {
 	margin: 0.75rem;
-}
+} */
 
-.grid {
+/* .grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	align-items: center;
-}
+} */
 
 /* .cards .list {
   display: flex;
   flex-direction: row;
 } */
 .directory-page .cards .list section{
-  display: block !important;
-  /* flex-direction: column; */
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   margin-left: 1em;
@@ -689,6 +691,3 @@ section {
 .list section img {
 	display: none; /* smaller viewports only */
 }
-
-
-

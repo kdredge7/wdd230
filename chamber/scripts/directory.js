@@ -24,7 +24,7 @@ fetch(requestURL)
     // Change the textContent property of the h2 element to contain the prophet's full name
     h2.textContent = `${directory.name}`;
     phone.textContent = `Phone: ${directory.phone}`;
-    website.textContent = `Website: ${directory.website}`;
+    website.textContent = `${directory.website}`;
     address.textContent = `Address: ${directory.address}`;
     membership.textContent = `Membership: ${directory.membership}`;
     

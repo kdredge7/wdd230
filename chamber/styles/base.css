@@ -452,15 +452,15 @@ main .discover_page {
  padding: 0;
 }
 
-.discover_page p{
+.discover_page p {
   text-align: left;
   line-height: 1.5em;
   padding: 1rem;
 }
 
-#lastVisit {
-  text-align: center;
-  padding: 20px;
+.discover_page #visit h2 {
+  padding-bottom: 1rem;
+  font-style: italic;
 }
 
 /* ////// JOIN PAGE //////// */
@@ -619,13 +619,8 @@ form label.top input:required {
   padding: .5rem;
 }
 
-button:hover {
-  background-color: #d8e1d3;
-}
-
-.btn .active {
-  background-color: #666;
-  color: white;
+.directory-page button:hover {
+  background-color: #c3b393;;
 }
 
 .directory-page .cards {
@@ -653,6 +648,12 @@ button:hover {
   padding: .5em;
 }
 
+/* Images */
+.directory-page img {
+	height: 150px;
+	max-width: 100%; 
+}
+
 .membership {
   font-style: italic;
 }
@@ -668,21 +669,17 @@ section {
 	align-items: center;
 }
 
-/*.list {
-	display: flex;
-	flex-direction: column;
-} */
-
-.directory-page .list {
+/* .cards .list {
   display: flex;
-  flex-direction: column;
-  border: none;
-  width: 100%;
-}
-
-.list section {
-	display: flex;
-	align-items: center;
+  flex-direction: row;
+} */
+.directory-page .cards .list section{
+  display: block !important;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 .list section > * {
@@ -694,8 +691,5 @@ section {
 	display: none; /* smaller viewports only */
 }
 
-.directory-page img {
-	height: 75px;
-	max-width: 100%; /* Images */
-}
+
 

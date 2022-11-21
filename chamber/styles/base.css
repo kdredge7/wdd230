@@ -113,6 +113,13 @@ nav ul li a:hover {
 /* ********************* */
 
 /* //////HEADER//////// */
+#banner {
+  font-size: 1em;
+  font-style: italic;
+  padding: 2%;
+  text-align: center;
+}
+
 .title {
   display: flex;
   align-items: center;

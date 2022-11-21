@@ -37,6 +37,9 @@ nav ul li a {
       color: black;
   }
 /* **************************** */
+#banner {
+  font-size: 1.5em;
+}
 
 .logo_header img {
   width: 40%;

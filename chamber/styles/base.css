@@ -116,7 +116,7 @@ nav ul li a:hover {
 #banner {
   font-size: 1em;
   font-style: italic;
-  padding: 2%;
+  padding: 1%;
   text-align: center;
 }
 
@@ -360,29 +360,6 @@ main .home{
   height: auto;
 }
 
-/* #icon1 {
-  width: 100px;
-  padding: 0;
-  margin: 0;
-}
-
-/* SPOTLIGHT 2 */
-/* .spotlight2 {
-  display: flex;
-  flex-direction: column;
-  background-color: #fff;
-  padding: 10px;
-  width: 75%;
-  margin: 10px 0px 10px 0px; 
-  align-items: center;
-} */
-
-/* #icon2 {
-   width: 100px;
-  padding: 0;
-  margin: 0;
-}
-
 /* SPOTLIGHT 3 */
 .spotlight3 {
   display: none;
@@ -522,10 +499,6 @@ form label.top input, form label.top select {
     width: 100%;
     max-width: 20rem;
     background-color: rgba(0,0,0,.1);
-}
-
-form label.top #description {
-  padding-top: 3rem;
 }
 
 form label.top::placeholder {

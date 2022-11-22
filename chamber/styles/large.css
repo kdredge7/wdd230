@@ -181,26 +181,17 @@ nav ul li a {
 }
 
 /* //// FOOTER //// */
-.footer_info {
-  display: flex;
-  flex-direction: row;
-}
+ 
 
 img.logo_footer {
   width: 10%;
-  align-items: end;
-}
-
-.logo_footer {
-  margin-left: 45%;
+  align-content: center;
 }
 
 .footer_info h2 {
-  text-align: left;
-  align-items: flex-start;
+  text-align: center;
   padding-left: 1rem;
   padding-top: 1rem;
-  justify-content: center;
 }
 
 /* ////// DISCOVER PAGE //////// */

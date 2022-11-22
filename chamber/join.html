@@ -19,35 +19,34 @@
 </head>
 <body>
     <header>
-        <div id="banner">
-        </div> 
+        <div id='banner'></div> 
         <div class= "title">
             <picture class="logo_header">
-                <source srcset="images/chamber-logo/logo_300.webp" source media="(min-width:599px)" width="200">
-                <source srcset="images/chamber-logo/logo_400.webp" source media="(min-width:799px)" width="300"> 
-                <img src="images/chamber-logo/logo_200.webp" alt="chamber logo" width="100">         
+                <source media="(min-width:599px)" srcset="images/chamber-logo/logo_300.webp">
+                <source media="(min-width:799px)" srcset="images/chamber-logo/logo_400.webp"> 
+                <img src="images/chamber-logo/logo_200.webp" alt="chamber logo">
             </picture>  
             <h1>Gem Valley Chamber of Commerce</h1>
             <div class="social_media">
             <picture class="facebook">
-                <source srcset="images/social-media/facebook_50.png" source media="(min-width:599px)" width="50">
-                <source srcset="images/social-media/facebook_75.png" source media="(min-width:799px)" width="75">
-                <img src="images/social-media/facebook_25.png" alt="facebook icon" width="25">
+                <source media="(min-width:599px)" srcset="images/social-media/facebook_50.png">
+                <source media="(min-width:799px)" srcset="images/social-media/facebook_75.png" >
+                <img src="images/social-media/facebook_25.png" alt="facebook icon">
             </picture>
             <picture class="linkedin">
-                <source srcset="images/social-media/linkedin_50.png" source media="(min-width:599px)" width="50">
-                <source srcset="images/social-media/linkedin_75.png" source media="(min-width:799px)" width="75">
-                <img src="images/social-media/linkedin.png" alt="linkedin icon" width="25">  
+                <source media="(min-width:599px)" srcset="images/social-media/linkedin_50.png">
+                <source media="(min-width:799px)" srcset="images/social-media/linkedin_75.png">
+                <img src="images/social-media/linkedin.png" alt="linkedin icon">  
             </picture>
             </div>
         </div>
         <nav>
             <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button> 
             <ul id="primaryNav">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
-                <li><a href="join.html" class="active">Join</a></li>
+                <li><a href="join.html">Join</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
@@ -63,7 +62,7 @@
             <legend>Member Information</legend>
             <label class="top">First Name* <input type="text" name="fname" required></label>
             <label class="top">Last Name* <input type="text" name="lname" required></label>
-            <label class="top"><Phone></Phone> <input type="tel" name="phone" required placeholder="1235551234"></label>
+            <label class="top">Phone <input type="tel" name="phone" required placeholder="1235551234"></label>
             <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
             <label class="top">Website <input type="url" name="url" placeholder="http://"></label>
         </fieldset>
@@ -104,6 +103,7 @@
         <input type="hidden" id="formDate" name="date" value="">
         <input type="hidden" id="formTime" name="time" value="">
         <input type="submit" value="Join the Chamber" class="submitBtn">
+        </form>
        
     </main>
     <footer> 

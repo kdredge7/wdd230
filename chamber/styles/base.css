@@ -42,6 +42,11 @@ h4 {
   margin: 0;
 }
 
+a { 
+  color: white;
+  text-decoration: none;
+}
+
 #banner {
   background-color: #c3b393;
   font-size: .5em;
@@ -271,8 +276,6 @@ main .home{
 }
 
 .weather figure {
-  /* justify-content: center;
-  align-items: center; */
   margin: auto;
   width: 75px;
   padding: 0;
@@ -599,6 +602,11 @@ form label.top input:required {
 
 .directory-page button:hover {
   background-color: #c3b393;;
+}
+
+.directory-page a {
+  color:#29221d;
+  text-decoration: none;
 }
 
 .directory-page .cards {

@@ -640,10 +640,10 @@ form label.top input:required {
   text-align: center;
  }
  
- .grid {
+ .directory-page .grid .cards {
 	display: grid;
-  grid-gap: 1em;
-	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 1rem;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	align-items: center;
 }
 
@@ -657,12 +657,12 @@ form label.top input:required {
 	align-items: center;
 }
 
-.grid section {
+.grid .cards section {
 	flex-direction: column;
 	text-align: center;
 }
 
-.grid section > * {
+.grid .cards section > * {
 	margin: 0.1rem;
 }
 

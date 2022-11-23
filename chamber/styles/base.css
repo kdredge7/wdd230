@@ -685,12 +685,6 @@ form label.top input:required {
 
 /* ////// CONTACT PAGE //////// */
 
-#contact-card {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  background-color: #c3b393;
-}
-
   #contact-us {
   color: #29221d;
   background-color: #d8e1d3;
@@ -706,8 +700,9 @@ form label.top input:required {
 
 #contact-us h2 {
   text-align: left;
+  font-size: 1em;
   font-weight: 600;
-  margin-left: 1.5rem;
+  margin-left: 2rem;
 }
   .contact-page p {
   margin-left: 2rem;
@@ -720,37 +715,16 @@ form label.top input:required {
     margin-right: 2rem;
     font-size: .75em;
     line-height: 1.5em;
-    padding-top: ;
   }
 
-  #contact-info p {
-    text-align: left;
-    margin-left: 4.5rem;
-    font-style: italic;
+
+  .contact-page picture img {
+    width: 100%;
   }
 
-/* .contact-page h1 {
-  text-align: center;
-  font-size: 1.5em;
-  background-color: #d8e1d3;
-  color: #29221d;
-  padding: .5rem;
-}
-
-#contact-us {
-  display: flex;
-  text-align: center;
-}
-
-#contact-us p {
-  text-align: left;
-}
-
-#contact-info p {
-  text-align: left;
-  font-weight: 400;
-  font-size: .75em; 
-}*/
+  hr {
+    color: #29221d;
+  }
 
 
 

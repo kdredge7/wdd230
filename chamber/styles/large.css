@@ -254,15 +254,20 @@ form label.top input, form label.top select {
 /* ////// CONTACT //////// */
 #contact-card {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  background-color: #c3b393;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 1.5em;
+  margin: 20px;
 }
 
-#contact-page picture img {
-  width: 60%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
+.contact-page picture {
+  grid-column: 1 / span 3;
+  grid-row: 1;
+  width: 66%;
+  }
+
+  #contact-us {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
 }

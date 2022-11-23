@@ -21,12 +21,12 @@
     
   function bannerDisplay(date) {
     if (date == "Monday" || date == "Tuesday") {
-      console.log("banner");
+      //console.log("banner");
       bannerDiv.style.display = "block";
     } else {
       bannerDiv.style.display = "none";
     }
 
-    bannerDisplay(date);
   }
 
+bannerDisplay(date);

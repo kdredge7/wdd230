@@ -26,7 +26,6 @@ fetch(requestURL)
     phone.textContent = `Phone: ${directory.phone}`;
     website.textContent = `${directory.website}`;
     address.textContent = `Address: ${directory.address}`;
-    membership.textContent = `Membership: ${directory.membership}`;
     
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values.
     portrait.setAttribute('src', directory.imageurl);

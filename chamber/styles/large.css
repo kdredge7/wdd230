@@ -245,4 +245,10 @@ form label.top input, form label.top select {
   width: 60%;
 }
 
+/* ////// DIRECTORY PAGE //////// */
+.list section {
+	flex-direction: row;
+	justify-content:space-evenly;
+}
+
 }

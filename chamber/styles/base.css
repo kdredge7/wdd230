@@ -616,7 +616,7 @@ form label.top input:required {
 }
 
 
-..directory-page h2 {
+.directory-page h2 {
   font-size: 1.25em;
   font-weight: 600;
   text-align: center;

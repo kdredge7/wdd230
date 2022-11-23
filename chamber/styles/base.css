@@ -625,6 +625,11 @@ form label.top input:required {
   padding: .5em;
 }
 
+.directory-page p {
+  font-size: .75em;
+  padding: .25em;
+}
+
 /* Images */
 .directory-page img {
 	height: 150px;
@@ -633,7 +638,7 @@ form label.top input:required {
 
 .directory-page .cards section {
   margin: 0.25rem;
-  padding: 0.35rem;
+  padding: 1rem;
   background-color: #f3f0e9;
   border: 6px solid #29221d;
   align-items: center;

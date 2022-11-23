@@ -415,8 +415,6 @@ footer {
 main .discover_page {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  /* x */
   margin: 20rem;
 }
 
@@ -587,7 +585,7 @@ form label.top input:required {
   margin: 1rem;
 }
 
-.directory-page h1 {
+.page-title h1 {
   text-align: center;
   font-size: 1.5em;
   background-color: #d8e1d3;
@@ -618,7 +616,7 @@ form label.top input:required {
 }
 
 
-.directory-page h2 {
+..directory-page h2 {
   font-size: 1.25em;
   font-weight: 600;
   text-align: center;
@@ -684,5 +682,76 @@ form label.top input:required {
 .list section img {
 	display: none; 
 }
+
+/* ////// CONTACT PAGE //////// */
+
+#contact-card {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: #c3b393;
+}
+
+  #contact-us {
+  color: #29221d;
+  background-color: #d8e1d3;
+  text-align: left;
+  margin: 2rem; 
+  padding: 1rem;
+}
+
+#contact-us h1 {
+  text-align: left;
+  margin-left: 1.5rem;
+}
+
+#contact-us h2 {
+  text-align: left;
+  font-weight: 600;
+  margin-left: 1.5rem;
+}
+  .contact-page p {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  line-height: 1.5em;
+}
+
+  #contact-us p {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: .75em;
+    line-height: 1.5em;
+    padding-top: ;
+  }
+
+  #contact-info p {
+    text-align: left;
+    margin-left: 4.5rem;
+    font-style: italic;
+  }
+
+/* .contact-page h1 {
+  text-align: center;
+  font-size: 1.5em;
+  background-color: #d8e1d3;
+  color: #29221d;
+  padding: .5rem;
+}
+
+#contact-us {
+  display: flex;
+  text-align: center;
+}
+
+#contact-us p {
+  text-align: left;
+}
+
+#contact-info p {
+  text-align: left;
+  font-weight: 400;
+  font-size: .75em; 
+}*/
+
+
 
 

@@ -251,4 +251,18 @@ form label.top input, form label.top select {
 	justify-content:space-evenly;
 }
 
+/* ////// CONTACT //////// */
+#contact-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: #c3b393;
+}
+
+#contact-page picture img {
+  width: 60%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
 }

@@ -722,8 +722,11 @@ form label.top input:required {
     width: 100%;
   }
 
-  hr {
-    color: #29221d;
+  .contact-page #border {
+    border-top: 4px solid #29221d;
+    padding: 1rem;
+    padding-top: 1rem;
+    margin: 1rem;
   }
 
 

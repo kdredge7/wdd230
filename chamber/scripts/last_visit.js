@@ -3,7 +3,7 @@ let lastVisit = localStorage.getItem("lastV");
  //What if lastV is not set ( this is their first visit )
 if (lastVisit == null || lastVisit == undefined){
     //Display Welcome this is your first visit!
-    document.getElementById("lastVisit").textContent = `Welcome this your first visit!`
+    document.getElementById("lastVisit").textContent = `This your first visit!`
 }
  //If there is a valid lastV ( There is a previous visit) 
 else{

@@ -141,6 +141,10 @@ nav ul li a:hover {
   width: 60%;
 }
 
+a .logo_header img {
+  width: 60%;
+}
+
 .title h1 {
   font-size: 1.25em;
   margin: 0;

@@ -26,7 +26,9 @@
     } else {
       bannerDiv.style.display = "none";
     }
+    
     bannerDisplay(date);
   }
 
+  
 

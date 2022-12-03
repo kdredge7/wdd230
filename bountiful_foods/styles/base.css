@@ -1,3 +1,115 @@
 * {
     font-family: 'Montserrat', sans-serif;
   }
+
+  body {
+    font-size: 16px;
+    font-weight: 400;
+    color: #231F20;
+    margin: 0;
+    width: 100%;
+  }
+
+  h1 {
+    font-weight: 700;
+    color: #231f20;
+    text-align: center;
+    font-size: 2em;
+  }
+  
+  h2 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.5em;
+    color: #231f20;
+  }
+  
+  h3 {
+    font-weight: 500;
+    text-align: center;
+    font-size: 1em;
+    color: #231F20;
+  }
+  
+  h4 {
+    font-weight: 700;
+    font-size: 1em;
+  }
+
+  h5 {
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+    font-size: 1em;
+    color: #231F20;
+  }
+
+  /* ////// NAVIGATION //////// */
+nav button {
+  margin: .2rem 2vw;
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #231F20;
+}
+
+nav {
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  color: #231F20;
+}
+
+.open {
+  display: block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 1rem 2vw;
+  font-weight: 600;
+  text-decoration: none;
+  color: #231F20 !important;
+  border-top: 1px solid rgba(0, 0, 0, .5);
+}
+
+nav ul li.active a {
+  background-color: rgba(0,0,0,.2);
+  color: #fff;
+}
+
+nav ul li a:hover {
+  background-color: #cabb98;
+}
+
+#hamburgerBtn span:nth-child(1) {
+  display: block;
+}
+
+#hamburgerBtn span:nth-child(2) {
+  display:none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+  display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+  display:block;
+}
+/* ********************* */
+
+  header {
+    background-color: #00495f;
+    width: 100%;
+  }
+
+
+  

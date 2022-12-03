@@ -104,11 +104,20 @@ nav ul li a:hover {
 #hamburgerBtn.open span:nth-child(2) {
   display:block;
 }
-/* ********************* */
 
+/* ////// HEADER //////// */
   header {
     background-color: #00495f;
     width: 100%;
+  }
+
+  .logo_header picture {
+    width: 100%;
+  }
+
+  .logo_header img {
+    width: 100%;
+    padding: 1em;
   }
 
 

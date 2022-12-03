@@ -54,7 +54,7 @@ nav button {
 }
 
 nav {
-  background-color: #fff;
+  background-color: #00495f;
   padding: 0;
   margin: 0;
 }
@@ -76,7 +76,7 @@ nav ul li a {
   padding: 1rem 2vw;
   font-weight: 600;
   text-decoration: none;
-  color: #231F20 !important;
+  color: #fff !important;
   border-top: 1px solid rgba(0, 0, 0, .5);
 }
 
@@ -87,6 +87,10 @@ nav ul li.active a {
 
 nav ul li a:hover {
   background-color: #cabb98;
+}
+
+#hamburgerBtn {
+  color: #fff;
 }
 
 #hamburgerBtn span:nth-child(1) {
@@ -111,14 +115,91 @@ nav ul li a:hover {
     width: 100%;
   }
 
-  .logo_header picture {
-    width: 100%;
+  .title {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
   }
 
-  .logo_header img {
-    width: 100%;
+  .title img {
+    width: 20%;
     padding: 1em;
   }
-
-
   
+  header .title h1 {
+    font-family: 'Rokkitt', serif;
+    font-weight: 400;
+    color: #fff;
+  }
+
+  header h5 {
+    color: #fff;
+    font-size: .75em;
+    padding: .5em;
+    margin: 0;
+  }
+
+  /* ////// HERO IMAGE //////// */
+  main .home {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+
+  .market {
+    position: relative;
+    align-items: center;
+    width: auto;
+    margin: 0px;
+  }
+
+  .hero_image {
+    width: 100%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .market h1 {
+    position: absolute;
+    top: 130px;
+    left: 85px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, .7);
+    font-size: 1em;
+    padding: .5em;
+  }
+
+  /* ////// MARKET ICONS //////// */
+  .market_icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr .15fr;
+    margin: 20px;
+    align-content: center;
+    justify-content: space-evenly;
+  }
+
+  .market_icons img {
+    background-color: #BFB96E;
+    padding: 1em;
+    width: 65%;
+  }
+
+  .market_icons h2 {
+    font-size: .75em;
+    padding: 1em;
+    margin: 0;
+  }
+
+  /* ////// MARKET INFORMATION //////// */
+
+  .market_info {
+    background-color: #BFB96E;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+    margin: 0;
+  }
+

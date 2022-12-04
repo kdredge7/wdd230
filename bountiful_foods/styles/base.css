@@ -225,6 +225,7 @@ nav ul li a:hover {
   align-items: center;
   padding: 0;
   margin: 0;
+  margin-top: 30px;
  }
 
  .highlight img {
@@ -242,10 +243,6 @@ nav ul li a:hover {
   margin: 0;
  }
 
- /* .link_btn {
-  align-items: center;
-  justify-items: center;
- } */
  .link_btn a {
   text-align: center;
   color: #231F20!important;
@@ -265,12 +262,16 @@ nav ul li a:hover {
  .link_btn3 {
   background-color: #FFD374;
  }
+
+
 /* ////// LOCATION //////// */
-section .hero_image{
-  margin-top: 30px;
-}
 #carlsbad {
   background-color: #CABB98;
+  margin-top: 30px;
+}
+
+#carlsbad h1 {
+  padding-top: 1em;
 }
 
 #carlsbad .location {
@@ -296,4 +297,34 @@ section .hero_image{
 }
 .weather img{
   background-color: white;
+}
+/* ////// FOOTER //////// */
+footer {
+  background-color: #00495f;
+  padding: 2em;
+}
+
+.social_media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+footer .social_media img {
+  width: 50px;
+}
+
+footer h6 {
+  text-align: center;
+  color: #fff;
+  line-height: 1.5em;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer .modified_date {
+  color: #fff;
+  font-size: .75em;
 }

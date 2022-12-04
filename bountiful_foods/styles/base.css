@@ -124,13 +124,16 @@ nav ul li a:hover {
 
   .title img {
     width: 20%;
-    padding: 1em;
+    margin: 0;
+    padding-right: 1em;
   }
   
   header .title h1 {
     font-family: 'Rokkitt', serif;
     font-weight: 400;
+    justify-content: center;
     color: #fff;
+    margin: 0;
   }
 
   header h5 {
@@ -166,9 +169,20 @@ nav ul li a:hover {
     top: 130px;
     left: 85px;
     justify-content: center;
+    border-radius: 12px;
     background-color: rgba(255, 255, 255, .7);
     font-size: 1em;
     padding: .5em;
+  }
+
+  /* ////// MARKET INFORMATION //////// */
+
+  .market_info {
+    background-color: #BFB96E;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+    margin-top: 15px;
   }
 
   /* ////// MARKET ICONS //////// */
@@ -176,12 +190,13 @@ nav ul li a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr .15fr;
-    margin: 20px;
+    margin: 15px;
     align-content: center;
     justify-content: space-evenly;
   }
 
   .market_icons img {
+    border-radius: 12px;
     background-color: #BFB96E;
     padding: 1em;
     width: 65%;
@@ -193,13 +208,53 @@ nav ul li a:hover {
     margin: 0;
   }
 
-  /* ////// MARKET INFORMATION //////// */
+  /* ////// LINK SECTIONS //////// */
 
-  .market_info {
-    background-color: #BFB96E;
+ section .links {
+    display: grid;
+    grid-template-columns: 1fr;
     align-items: center;
-    text-align: center;
-    padding: 1em;
     margin: 0;
-  }
+ }
+
+ .link_images {
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ .link_images img {
+  width: 80%;
+ }
+
+button {
+  border-radius: 12px;
+  text-align: center;
+  align-content: center;
+  padding: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FCD8D4;
+ }
+
+.links button #nourish_btn{
+  background-color: #FCD8D4;
+}
+
+/* ////// LOCATION //////// */
+#carlsbad {
+  background-color: #CABB98;
+}
+
+.location {
+  width: 100%;
+}
+
+.location img {
+
+}
+
+#carlsbad p {
+  line-height: 1.5em;
+  padding: 0 2em 2em 2em;
+}
 

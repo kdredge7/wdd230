@@ -3,10 +3,11 @@ const currentTemp = document.querySelector('#current-temp');
 const currentCondition = document.querySelector('#currentCond')
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
-const humidity = document.querySelector('#humidity');
+const windSpeed = document.querySelector('#wind-speed');
+const windChill = document.querySelector('#windchill');
 
 // Weather Data
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?q=Carlsbad&units=imperial&appid=79dabcb9110b08edb5788d12143addcb';
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?q=Grace&units=imperial&appid=79dabcb9110b08edb5788d12143addcb';
 
 async function apiFetch() {
   try {
@@ -54,3 +55,11 @@ function chillF(temp, speed) {
     return "N/A"
   }
 } 
+      
+     
+         
+
+    
+
+          
+     

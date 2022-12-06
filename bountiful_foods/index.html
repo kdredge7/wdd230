@@ -23,6 +23,13 @@
 
 <body>
     <header>
+        <div class= "title">
+            <img src="images/logo_icon.png" alt="Bountiful Foods Logo Icon">
+            <div id="logo_tag">
+                <h1>Bountiful Foods</h1>
+            <h5>Abundantly Nourishing & Fresh Produce</h5>
+            </div>
+        </div>
         <nav>
             <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button> 
             <ul id="primaryNav">
@@ -33,11 +40,6 @@
                 <li><a href="">Contact</a></li>
             </ul>
         </nav>
-        <div class= "title">
-            <img src="images/logo_icon.png" alt="Bountiful Foods Logo Icon">
-            <h1>Bountiful Foods</h1>
-        </div>
-        <h5>Abundantly Nourishing & Fresh Produce</h5>
     </header>
 
     <main class="home">
@@ -50,7 +52,7 @@
             <h1>Visit the Local Market Today!</h1>            
          </div>
         <div class="market_info">
-            <h4> Bouniful Foods Market </h4>
+            <h4> Bountiful Foods Market </h4>
             <p> BountifulFoodsCA@gmail.com <br>
                 2907 State St • Carlsbad, CA <br>
                 Monday–Saturday • 8AM to 6PM</p>
@@ -63,63 +65,60 @@
             <h2>Fruit Bags</h2>
             <h2>Juice Blends</h2>
         </div>
-        <div class="highlight highlight1">
-            <img src="images/pink_juice400x400.jpg" alt="Fruit Juice Image"  loading="lazy">
-            <h1>NOURISH YOURSELF</h1>
-            <h2>Customize Your Juice</h2>
-            <div class="link_btn link_btn1">
-                <a href="freshjuice.html">Order YOUR fresh juice blend today!</a>
+        <div class="section_links">
+            <div class="highlight highlight1">
+                <img src="images/pink_juice400x400.jpg" alt="Fruit Juice Image"  loading="lazy">
+                <h1>NOURISH YOURSELF</h1>
+                <h2>Customize Your Juice</h2>
+                <div class="link_btn link_btn1">
+                    <a href="freshjuice.html">Order YOUR fresh juice blend today!</a>
+                    </div> 
+            </div>
+            <div class="highlight highlight2">
+                <img src="images/orange_grapefruit400x400.jpg" alt="Citrus Fruit Image"  loading="lazy">
+                <h1>SPECIALITY JUICE</h1>
+                <h2>Your Order Today</h2>
+                <div class="link_btn link_btn2">
+                    <a href="freshjuice.html"><span id="juice_order"></span></a>
+                    </div> 
+            </div>
+            <div class="highlight highlight3">
+                <img src="images/orange_trees400x400.jpg" alt="Orange Tree Image"  loading="lazy">
+                <h1>KNOW YOUR FOOOD</h1>
+                <h2>Fresh & Organic Grown</h2>
+                <div class="link_btn link_btn3">
+                    <a href="about.html">Learn More About Us!</a>
                 </div> 
-        </div>
-        <div class="highlight highlight2">
-            <img src="images/orange_grapefruit400x400.jpg" alt="Citrus Fruit Image"  loading="lazy">
-            <h1>SPECIALITY JUICE</h1>
-            <h2>Your Order Today</h2>
-            <div class="link_btn link_btn2">
-                <a href="freshjuice.html"><span id="juice_order"></span></a>
-                </div> 
-        </div>
-        <div class="highlight highlight3">
-            <img src="images/orange_trees400x400.jpg" alt="Orange Tree Image"  loading="lazy">
-            <h1>KNOW YOUR FOOOD</h1>
-            <h2>Fresh & Organic Grown</h2>
-            <div class="link_btn link_btn3">
-                <a href="about.html">Learn More About Us!</a>
-                </div> 
-        </div>
-        <section id="carlsbad">
-            <h1>CARLSBAD, CALIFORNIA</h1>
-            <picture class="hero_image">
-                <source media="(min-width:600px)" srcset="images/carlsbad_oceanside800x400.jpg">
-                <source media="(min-width:950px)" srcset="images/carlsbad_oceanside1000x500.jpg">
-                <img src="images/carlsbad_oceanside600x300.jpg" alt="Oceanside at Carlsbad, CA"  loading="lazy">
-            </picture>
-            <p>Known as “The Village by the Sea,” the city of Carlsbad offers the charm of a European town with the conveniences of a large city. As you wander streets lined with antique stores, boutique shops, and sidewalk cafes, you’ll soon discover much more, including miles of coastline, beautiful flower gardens and world-class resorts.<br><br>
+            </div>
+            <div class="weather">
+                <h2>Carlsbad, CA</h2>
+                <h5>Local Weather</h5>
+                <h1><span id="current-temp"></span> &deg;F</h1>
+                <h5>Current Condition: <span id="currentCond"></span></h5>
+                <!-- <figure>
+                    <img src="/" alt="/" id="weather-icon">
+                    <figcaption></figcaption>
+                </figure> -->
+                <h5>Humidity: <br><span id="current-humidity"></span></h5>
+                <h5>3 Day Forcast</h5>
+                <div id="forecast">
+                    <h2><span id="dayOne"></span> &deg;F</h2>
+                    <h2><span id="dayTwo"></span> &deg;F</h2>
+                    <h2><span id="dayThree"></span> &deg;F</h2>
+                </div>
+            </div>
+            <section id="carlsbad">
+                <h1>CARLSBAD, CALIFORNIA</h1>
+                <picture class="hero_image">
+                    <source media="(min-width:600px)" srcset="images/carlsbad_oceanside800x400.jpg">
+                    <source media="(min-width:950px)" srcset="images/carlsbad_oceanside1000x500.jpg">
+                    <img src="images/carlsbad_oceanside600x300.jpg" alt="Oceanside at Carlsbad, CA"  loading="lazy">
+                </picture>
+                <p>Known as “The Village by the Sea,” the city of Carlsbad offers the charm of a European town with the conveniences of a large city. As you wander streets lined with antique stores, boutique shops, and sidewalk cafes, you’ll soon discover much more, including miles of coastline, beautiful flower gardens and world-class resorts.<br><br>
                 With a perfectly mild climate, each season offers a variety of unique events and activities, from street fairs to art walks. Steps away sit clean, uncrowded beaches for swimming, sunbathing and surfing as well as beautiful lagoons for fishing, bird-watching and nature trail hikes. Venture further to discover the unique destinations of LEGOLAND® California and SEA LIFE Aquarium or the nearby attractions of San Diego and Los Angeles.<br><br>
                 Having only 103,000 residents, the city Carlsbad has also been able to maintain its gorgeous open spaces, while providing a friendly small-town atmosphere and unmatched amenities. No matter what you choose to do on vacation, Carlsbad, California, promises to offer up special experiences and fun-filled memories that will last a lifetime.<br><br>
                 Information Source: https://visitcarlsbad.com/about-carlsbad/</p>
-        </section>
-        <div class="weather">
-            <h2>Carlsbad, CA</h2>
-            <h5>Local Weather</h5>
-            <h2><span id="current-temp"></span> &deg;F</h2>
-            <h5><span id="currentCond"></span></h5>
-            <div id="forecast">
-                <figure>
-                    <img src="/" alt="/" id="weather-icon">
-                    <figcaption></figcaption>
-                </figure>
-                <figure>
-                    <img src="/" alt="/" id="weather-icon">
-                    <figcaption></figcaption>
-                </figure>
-                <figure>
-                    <img src="/" alt="/" id="weather-icon">
-                 <figcaption></figcaption>
-                </figure>
-            </div>
-                <span id="wind-speed"></span> mph </p>
-            <p>Humidity<br><span id="humidity"></span></p>
+            </section>
         </div>
     </main>
 
@@ -138,5 +137,6 @@
     </footer>
     <script src = "scripts/homepage.js"></script>
     <script src = "scripts/weather.js"></script>
+    <script src = "scripts/forecast.js"></script>
 </body>
 </html>

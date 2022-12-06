@@ -46,7 +46,7 @@
 
   /* ////// NAVIGATION //////// */
 nav button {
-  margin: .2rem 2vw;
+  /* margin: .2rem 2vw; */
   background-color: transparent;
   border: none;
   font-size: 2rem;
@@ -54,7 +54,7 @@ nav button {
 }
 
 nav {
-  background-color: #00495f;
+  background-color: #fff;
   padding: 0;
   margin: 0;
 }
@@ -74,23 +74,23 @@ nav ul {
 nav ul li a {
   display: block;
   padding: 1rem 2vw;
-  font-weight: 600;
+  font-weight: 400;
   text-decoration: none;
-  color: #fff !important;
+  color: #231f20!important;
   border-top: 1px solid rgba(0, 0, 0, .5);
 }
 
 nav ul li.active a {
   background-color: rgba(0,0,0,.2);
-  color: #fff;
+  color: #00495f;
 }
 
 nav ul li a:hover {
-  background-color: #cabb98;
+  background-color: #00495f;;
 }
 
 #hamburgerBtn {
-  color: #fff;
+  color: #00495f;
 }
 
 #hamburgerBtn span:nth-child(1) {
@@ -110,29 +110,32 @@ nav ul li a:hover {
 }
 
 /* ////// HEADER //////// */
-  header {
+  .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
     background-color: #00495f;
     width: 100%;
   }
 
-  .title {
-    display: flex;
-    flex: 1 1 auto;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
+  #logo_tag {
+    padding: 0;
+    margin: 0;
   }
-
   .title img {
     width: 20%;
     margin: 0;
-    padding-right: 1em;
+    padding-left: 1em;
+    float: left;
   }
   
   header .title h1 {
     font-family: 'Rokkitt', serif;
     font-weight: 400;
-    justify-content: center;
+    font-size: 1.5em;
     color: #fff;
     margin: 0;
   }
@@ -140,7 +143,7 @@ nav ul li a:hover {
   header h5 {
     color: #fff;
     font-size: .75em;
-    padding: .5em;
+    padding: 0;
     margin: 0;
   }
 
@@ -243,11 +246,15 @@ nav ul li a:hover {
   margin: 0;
  }
 
+ .link_btn {
+  padding: 1em;
+  margin-top: .5em;
+  border-radius: 12px;
+ }
  .link_btn a {
   text-align: center;
   color: #231F20!important;
   text-decoration: none;
-  border-radius: 12px;
   padding: .1em;
  }
 
@@ -267,11 +274,14 @@ nav ul li a:hover {
 /* ////// LOCATION //////// */
 #carlsbad {
   background-color: #CABB98;
+
   margin-top: 30px;
 }
 
 #carlsbad h1 {
   padding-top: 1em;
+  padding-bottom: 0;
+  margin-top: .5em;
 }
 
 #carlsbad .location {
@@ -295,9 +305,7 @@ nav ul li a:hover {
   flex-direction: row;
   justify-content: space-evenly;
 }
-.weather img{
-  background-color: white;
-}
+
 /* ////// FOOTER //////// */
 footer {
   background-color: #00495f;

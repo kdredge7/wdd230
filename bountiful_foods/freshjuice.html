@@ -44,13 +44,14 @@
 
     <main class="fresh_page">
         <h1>Order Your Fresh Juice Blend</h1>
-        <h3>Our Juice Blends are made FRESH with real fruit and vegetables. No pre-mixed or pre-made.</h3>
-        <form action="thankyou.html" method="get">
+        <h3>Our Juice Blends are made FRESH with real fruit and vegetables.<br>
+            <em>No pre-mixed or pre-made.</em></h3>
+        <form action="freshjuice.html" method="get">
 
         <fieldset>
             <legend>Order Information</legend>
             <label class="top">First Name* <input type="text" name="fname" required></label>
-            <label class="top">Last Name <input type="text" name="lname"></label>
+            <label class="top">Last Name* <input type="text" name="lname" required></label>
             <label class="top">Phone* <input type="tel" name="phone" required placeholder="1235551234" required></label>
             <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
         </fieldset>
@@ -59,28 +60,16 @@
             <legend>Custom Juice Blend</legend>
                 <label class="fruit1">Choose First Item <input list="produce"></label>
                 <datalist class="produce">
-                  <option value="name">
+                    <option value="name"><!--from API-->
+                <label class="fruit2">Choose Second Item <input list="produce"></label>
+                <datalist class="produce">
+                    <option value="name"><!--from API-->
+                <label class="fruit3">Choose Third Item <input list="produce"></label>
+                <datalist class="produce">
+                    <option value="name"><!--from API-->
                 </datalist>
-            <label class="top">Business Name/ Title* <input type="text" name="businessName" required></label>
-            <label class="top">Business Position Title <input type="text" name="position"></label>
             <label class="top">Notes <input type="text" id="description" name="description" placeholder="Special instructions if needed..."></label>
         </fieldset>
-
-        <!-- <fieldset>
-            <legend>Favorite Juice Blends</legend>
-            <label class="sbs"><input type="radio" name="favBlend" value="orangeDreamCream"> Orange Dream Cream</label>
-            <ul id="orangeDream">
-                <li><em>Oranges, Banana, & Vanilla</em></li>
-            </ul>
-            <label class="sbs"><input type="radio" name="favBlend" value="berryHappy"> Berry Happy</label>
-            <ul id="berryHappy">
-                <li><em>Kale, Spinach, Blueberry, Strawberry, Wheatgrass, Apple Juice, & Honey</em></li>
-            </ul>
-            <label class="sbs"><input type="radio" name="audience" value="oneInAMelon"> One in a Melon</label>
-            <ul id="oneinaMelon">
-                <li><em>Watermelon, Strawberries, Mango, Peach, & Vanilla</em></li>
-            </ul>
-        </fieldset> -->
         <input type="submit" value="Order Your Juice Blend" class="submitBtn">
         </form>
 

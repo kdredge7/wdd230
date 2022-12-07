@@ -339,11 +339,13 @@ footer .modified_date {
   font-size: .75em;
 }
 
-/* ////// JOIN PAGE //////// */
+/* ////// FRESH PAGE //////// */
 
 .fresh_page h1 {
   background-color: #FCD8D4;
   color: #231F20;
+  border-radius: 12px;
+  padding: .5em;
   margin-left: 2rem;
   margin-right: 2rem;
 }
@@ -363,14 +365,15 @@ footer .modified_date {
 }
 
 form fieldset {
-    margin: 2rem;
+    margin: 1rem;
     border: 1px solid #231F20;
-    border-radius: 10px;
-    padding: .75rem 2%;
+    border-radius: 12px;
+    padding: 1rem;
 }
+
 form legend {
     color: #231F20;
-    font-weight: 600;
+    font-weight: 800;
     margin: 0 1rem;
     padding: 0 1rem;
 }
@@ -386,13 +389,13 @@ form label.top input, form label.top select {
     -webkit-appearance: none;
     display: block;
     font-size: 1rem;
-    border: solid 1px #999;
+    border: solid 1px #F89E53;
     border-radius: 4px;
     padding: .75rem;
-    color: #231F20;
+    color: #F89E53;
     width: 100%;
-    max-width: 20rem;
-    background-color: rgba(0,0,0,.1);
+    max-width: 18rem;
+    background-color: rgba(248,158,83,.2);
 }
 
 form label.top::placeholder {
@@ -402,11 +405,7 @@ form label.top::placeholder {
 form label.sbs {
     display: block;
     padding: .5rem;
-    color: #555;
-}
-
-form input[type="radio"] { 
-  margin-right: 10px;
+    color: #FFD374;
 }
 
 form input.submitBtn {
@@ -415,8 +414,8 @@ form input.submitBtn {
     color: white;
     border-radius: 12px;
     padding: .75rem 1.5rem;
-    margin: 0 0 2rem 2rem;
-    width: 50%;
+    margin: 2rem 0 2rem 2rem;
+    width: 80%;
     max-width: 20rem;
 }
 

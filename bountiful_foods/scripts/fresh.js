@@ -49,7 +49,7 @@ fetch(requestURL)
     // Add/append the existing HTML div with the cards class with the section(card)
      document.querySelector('div.cards').appendChild(card);
 
-
+  }
 // const requestURL = 'scripts/data.json';
 // const cards = document.querySelector('.cards');
 

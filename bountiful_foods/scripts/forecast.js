@@ -1,4 +1,3 @@
-// 3 Day Forecast
 const dayOne = document.querySelector('#dayOne');
 const dayTwo = document.querySelector('#dayTwo');
 const dayThree = document.querySelector('#dayThree');

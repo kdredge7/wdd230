@@ -24,7 +24,7 @@ nav ul li {
    
   
 nav ul li a {
-      color: #4a675a;
+      color: #FFD374;
      display: block;
       text-align: center;
       padding: 0.75rem;
@@ -37,7 +37,7 @@ nav ul li a {
   }
 
   nav ul li a:hover {
-    background-color: #00495f;;
+    background-color: #FFD374;
   }
 
 /* ////// HEADER //////// */
@@ -47,6 +47,18 @@ nav ul li a {
   
   header .title h1 {
     font-size: 2em;
+  }
+
+  /* ////// HERO IMAGE //////// */
+  .hero h1 {
+    position: absolute;
+    top: 250px;
+    left: 225px;
+    justify-content: center;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, .7);
+    font-size: 1.5em;
+    padding: .5em;
   }
 
   /* ////// LINK SECTIONS //////// */

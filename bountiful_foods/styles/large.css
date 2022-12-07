@@ -1,3 +1,17 @@
 @media (min-width:950px) {
+    main .home {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+      }
+    .hero {
+        grid-column: 1 / span 2;
+    }
+    #market {
+        grid-column: 3;
+        grid-row: 1 / span 2;
+
+    }
+    
 
 }

@@ -3,11 +3,11 @@ const currentTemp = document.querySelector('#current-temp');
 const currentCondition = document.querySelector('#currentCond')
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
-const windSpeed = document.querySelector('#wind-speed');
+const humidity = document.querySelector('#current-humidity');
 const windChill = document.querySelector('#windchill');
 
 // Weather Data
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?q=Grace&units=imperial&appid=79dabcb9110b08edb5788d12143addcb';
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?q=Carlsbad&units=imperial&appid=79dabcb9110b08edb5788d12143addcb';
 
 async function apiFetch() {
   try {
@@ -35,6 +35,7 @@ function displayResults(weatherData) {
   let speed = weatherData.wind.speed;
   let iconsrc = `https://openweathermap.org/img/wn/${weatherData.weather[0].icon}.png`;
   let desc = weatherData.weather[0].description;
+  let hum = 
 
   currentTemp.innerHTML = `<strong>${temp.toFixed(0)}</strong>`;
   currentCondition.innerHTML = capitalize(desc);

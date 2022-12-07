@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="KT Dredge" content="Bountiful Foods">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods | Carlsbad, CA</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href = "" type="image/x-icon">
+    <!-- Fonts Rokkitt & Montserrat-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rokkitt&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class= "title">
+            <img src="images/logo_icon.png" alt="Bountiful Foods Logo Icon">
+            <div id="logo_tag">
+                <h1>Bountiful Foods</h1>
+            <h5>Abundantly Nourishing & Fresh Produce</h5>
+            </div>
+        </div>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button> 
+            <ul id="primaryNav">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="freshjuice.html">Fresh Juice</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="">Discover</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="fresh_page">
+        <h1>Order Your Fresh Juice Blend</h1>
+        <h3>Our Juice Blends are made FRESH with real fruit and vegetables. No pre-mixed or pre-made.</h3>
+        <form action="thankyou.html" method="get">
+
+        <fieldset>
+            <legend>Order Information</legend>
+            <label class="top">First Name* <input type="text" name="fname" required></label>
+            <label class="top">Last Name <input type="text" name="lname"></label>
+            <label class="top">Phone* <input type="tel" name="phone" required placeholder="1235551234" required></label>
+            <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Custom Juice Blend</legend>
+                <label class="fruit1">Choose First Item <input list="produce"></label>
+                <datalist class="produce">
+                  <option value="name">
+                </datalist>
+            <label class="top">Business Name/ Title* <input type="text" name="businessName" required></label>
+            <label class="top">Business Position Title <input type="text" name="position"></label>
+            <label class="top">Notes <input type="text" id="description" name="description" placeholder="Special instructions if needed..."></label>
+        </fieldset>
+
+        <!-- <fieldset>
+            <legend>Favorite Juice Blends</legend>
+            <label class="sbs"><input type="radio" name="favBlend" value="orangeDreamCream"> Orange Dream Cream</label>
+            <ul id="orangeDream">
+                <li><em>Oranges, Banana, & Vanilla</em></li>
+            </ul>
+            <label class="sbs"><input type="radio" name="favBlend" value="berryHappy"> Berry Happy</label>
+            <ul id="berryHappy">
+                <li><em>Kale, Spinach, Blueberry, Strawberry, Wheatgrass, Apple Juice, & Honey</em></li>
+            </ul>
+            <label class="sbs"><input type="radio" name="audience" value="oneInAMelon"> One in a Melon</label>
+            <ul id="oneinaMelon">
+                <li><em>Watermelon, Strawberries, Mango, Peach, & Vanilla</em></li>
+            </ul>
+        </fieldset> -->
+        <input type="submit" value="Order Your Juice Blend" class="submitBtn">
+        </form>
+
+
+    </main>
+    <footer>
+        <div class="social_media">
+            <img src="images/facebook150.png" alt="Facebook Icon">
+            <img src="images/instagram150.png" alt="Instagram Icon">
+            <img src="images/tiktok150.png" alt="TikTok Icon">
+        </div>
+        <h6>BOUNTIFUL FOODS &copy;<span id="year"></span><br>
+            2907 State St • Carlsbad, CA<br>
+            Weather data provided by OpenWeather<br>
+            <a href= https://openweathermap.org>OpenWeatherMap.org</a><br>
+                <a href="">Resources</a><br><h6>
+            <h5><div class="modified_date">Last Updated: <span id="modDate"></span></div></h5>
+    </footer>
+    <script src = "scripts/homepage.js"></script>
+</body>
+</html>

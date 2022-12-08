@@ -1,4 +1,4 @@
-const requestURL = 'scripts/data.json';
+const requestURL = 'https://brotherblazzard.github.io/canvas-content/fruit.json';
 const produce = document.querySelector('.produce');
 
 fetch(requestURL)

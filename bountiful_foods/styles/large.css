@@ -1,17 +1,148 @@
 @media (min-width:950px) {
-    main .home {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+    .title {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
         align-items: center;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        background-color: #00495f;
+        width: 100%;
       }
-    .hero {
-        grid-column: 1 / span 2;
-    }
-    #market {
-        grid-column: 3;
-        grid-row: 1 / span 2;
+    
+      #logo_tag {
+        padding: 0;
+        margin: 0;
+      }
+      .title img {
+        width: 10%;
+        margin: 0;
+        padding-left: 2em;
+        float: left;
+      }
+      
+      header .title h1 {
+        font-size: 2em;
+      }
+    
+      header h5 {
+        font-size: 1em;
+      }
 
-    }
+      /* ////// HERO IMAGE //////// */
+  main .home {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    align-items: center;
+  }
+
+  .hero h1 {
+    position: absolute;
+    top: 115px;
+    left: 60px;
+    justify-content: center;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, .7);
+    font-size: 1em;
+    padding: .5em;
+  }
+
+  .hero {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    margin: 0px;
+  }
+  
+  .hero_image {
+    width: 100%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .hero_image img {
+    width: 100%;
+  }
+
+  /* ////// MARKET INFORMATION //////// */
+
+  .market_info {
+    background-color: #BFB96E;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+    margin-top: 0;
+  }
+
+  .market h4 {
+    padding: 0;
+    margin: 0;
+  }
+
+  .market_info p {
+    line-height: 1.25em;
+  }
+
+  /* ////// MARKET ICONS //////// */
+  #market {
+    grid-template-columns: 3;
+    grid-template-rows: 1;
+  }
+  .market_icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: .4fr .15fr;
+    margin: 15px;
+    /* align-self: center;
+    justify-content: space-evenly; */
+  }
+
+  .market_icons img {
+    border-radius: 12px;
+    background-color: #BFB96E;
+    padding: 1em;
+    width: 65%;
+    justify-content:center;
+    align-items: center;
+  }
+
+  .market_icons h2 {
+    font-size: .75em;
+    padding: 1em;
+    margin: 0;
+  }
+
+  /* ////// LINK SECTIONS //////// */
+    .section_links {
+    grid-column: 1 / span 3;
+    grid-row: 2;
+   }
+
+   .highlight {
+    margin: 0;
+   }
+
+   /* ////// WEATHER //////// */
+  .weather {
+    grid-column: 1;
+    grid-row: 3;
+    padding: .5em;
+    margin-top: 30px;
+  }
+
+/* ////// LOCATION //////// */
+#carlsbad {
+    grid-column: 1 / span 3;
+    grid-row: 4;
+    margin-top: 30px;
+  }
+  
+  
     
 
 }

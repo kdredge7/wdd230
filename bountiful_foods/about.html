@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="KT Dredge" content="Bountiful Foods">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods | Carlsbad, CA</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href = "" type="image/x-icon">
+    <!-- Fonts Rokkitt & Montserrat-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rokkitt&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class= "title">
+            <img src="images/logo_icon.png" alt="Bountiful Foods Logo Icon">
+            <div id="logo_tag">
+                <h1>Bountiful Foods</h1>
+            <h5>Abundantly Nourishing & Fresh Produce</h5>
+            </div>
+        </div>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button> 
+            <ul id="primaryNav">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="freshjuice.html">Fresh Juice</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="">Discover</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article>
+        <picture> <!--Source: Photo by Juan Cruz Mountford on Unsplash-->
+            <source media="(min-width:599px)" srcset="images/discover-images/small_town_600x450.jpg">
+            <source media="(min-width:949px)" srcset="images/happyfamily_beach800x650> 
+            <img src="images/happyfamily_beach400x300.jpg" alt="Family at Beach" loading="lazy">         
+        </picture> 
+        <h3>Community</h3>
+        <p>The Gem Valley has economic growth of this area by encouraging families and small businesses to move to the valley. The Gem Valley has traditionally been a "Bedroom Community" with many wage earners commuting the to Soda Springs to work at the heavy industry sites.  However, the number of job opportunities in valley are increasing.  We now have our own small business industrial park that is home to Heritage Safe Company, a major manufacture of gun safes.  It is also the home of Biotech Nutrients, the manufacture of an excellent fertilizer.  A new subdivision offering 22 building lots with paved streets, city sewer and water and underground utilities has been developed with room for future expansion.
+        </p> <!--Source: https://www.graceidaho.com/index.html-->
+    </article>
+
+    <footer>
+    <div class="social_media">
+        <img src="images/facebook150.png" alt="Facebook Icon">
+        <img src="images/instagram150.png" alt="Instagram Icon">
+        <img src="images/tiktok150.png" alt="TikTok Icon">
+    </div>
+    <h6>BOUNTIFUL FOODS &copy;<span id="year"></span><br>
+        2907 State St • Carlsbad, CA<br>
+        Weather data provided by OpenWeather<br>
+        <a href= https://openweathermap.org>OpenWeatherMap.org</a><br>
+            <a href="">Resources</a><br><h6>
+        <h5><div class="modified_date">Last Updated: <span id="modDate"></span></div></h5>
+</footer>
+<script src = "scripts/homepage.js"></script>
+</body>
+</html>

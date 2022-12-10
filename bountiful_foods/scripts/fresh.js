@@ -1,4 +1,4 @@
-const requestURL = 'https://brotherblazzard.github.io/canvas-content/fruit.json';
+const requestURL = 'scripts/data.json';
 const produce = document.querySelector('.produce');
 
 fetch(requestURL)
@@ -23,7 +23,7 @@ fetch(requestURL)
     
 
     // Change the textContent property of the h2 element to contain the produce name
-    h2.textContent = `${produceDirectory.name}`;
+    // h2.textContent = `${produceDirectory.name}`;
     name.textContent = `Proudce: ${directory.name}`;
     calories.textContent = `Calories: ${directory.calories}`;
     carbohydrates.textContent = `Carbohdrates: ${directory.carbohydrates}`;
@@ -39,7 +39,7 @@ fetch(requestURL)
     fat.setAttribute('class', 'fat');
     sugar.setAttribute('class', 'sugar');
     // Add/append the section(card) with the h2 element
-    card.appendChild(h2);
+    card.appendChild(name);
     card.appendChild(calories);
     card.appendChild(carbohydrates);
     card.appendChild(protein);
@@ -47,7 +47,9 @@ fetch(requestURL)
     card.appendChild(sugar);
 
     // Add/append the existing HTML div with the cards class with the section(card)
-     document.querySelector('div.cards').appendChild(card);
+    //  document.querySelector('div.cards').appendChild(card);
+    document.querySelector('.produce').appendChild(name);
+
 
   }
 // const requestURL = 'scripts/data.json';

@@ -150,24 +150,13 @@ header h5 {
   main .home {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 15px;
+    grid-gap: .25em;
     align-items: center;
-  }
-
-  .hero h1 {
-    position: absolute;
-    top: 115px;
-    left: 60px;
-    justify-content: center;
-    border-radius: 12px;
-    background-color: rgba(255, 255, 255, .7);
-    font-size: 1em;
-    padding: .5em;
   }
 
   .hero {
-    position: relative;
     align-items: center;
+    justify-items: center;
     text-align: center;
     width: auto;
     margin: 0px;
@@ -184,7 +173,6 @@ header h5 {
     width: 100%;
   }
   /* ////// MARKET INFORMATION //////// */
-
   .market_info {
     background-color: #BFB96E;
     align-items: center;
@@ -202,9 +190,8 @@ header h5 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr .15fr;
-    margin: 15px;
-    /* align-self: center;
-    justify-content: space-evenly; */
+    justify-items: center;
+    margin: 1em 1em 0em 1em;
   }
 
   .market_icons img {
@@ -225,10 +212,9 @@ header h5 {
   /* ////// LINK SECTIONS //////// */
  .highlight {
   display: flex;
-  /* flex: 1 1 auto; */
   flex-direction: column;
   align-items: center;
-  padding: 0;
+  padding: .25em;
   margin: 0;
   margin-top: 30px;
  }
@@ -248,6 +234,8 @@ header h5 {
   margin: 0;
  }
 
+
+
  .link_btn {
   padding: 1em;
   margin-top: .5em;
@@ -265,13 +253,51 @@ header h5 {
  }
 
  .link_btn2 {
-  background-color: #F89E53;
- }
-
- .link_btn3 {
   background-color: #FFD374;
  }
 
+ .link_btn3 {
+  background-color: #F89E53;
+ }
+
+ /* ////// FARM FIELD IMAGE //////// */
+ .strawberry-field {
+ margin-top: 30px;
+ }
+
+
+ /* ////// WEATHER //////// */
+.weather {
+  background-color: #FFD374;
+  padding: 1em;
+  margin-top: 30px;
+}
+
+.weather h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.weather h3 {
+  font-weight: 700;
+}
+
+.weather h5 {
+  padding: 0;
+  margin: .25em;
+}
+
+#currentCond {
+  text-transform: capitalize;
+}
+
+#forecast {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1em;
+  margin: .25em;
+}
 
 /* ////// LOCATION //////// */
 #carlsbad {
@@ -295,34 +321,6 @@ header h5 {
 #carlsbad p {
   line-height: 1.5em;
   padding: 0 2em 2em 2em;
-}
-/* ////// WEATHER //////// */
-.weather {
-  background-color: #FFD374;
-  padding: 1em;
-  margin-top: 30px;
-}
-
-.weather h2 {
-  padding: 0;
-  margin: 0;
-}
-
-.weather h5 {
-  padding: 0;
-  margin: .25em;
-}
-
-#currentCond {
-  text-transform: capitalize;
-}
-
-#forecast {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 1em;
-  margin: .25em;
 }
 
 /* ////// FOOTER //////// */
@@ -357,6 +355,10 @@ footer .modified_date {
 }
 
 /* ////// FRESH PAGE //////// */
+.fresh_page {
+  max-width: 800px;
+  align-items: center;
+}
 
 .fresh_page h1 {
   background-color: #FCD8D4;
@@ -422,7 +424,7 @@ form label.top::placeholder {
 form label.sbs {
     display: block;
     padding: .5rem;
-    color: #FFD374;
+    color: #ffd374;
 }
 
 form input .produce {
@@ -460,3 +462,37 @@ form label.top input:required {
 }
 
 /* ////// ABOUT US //////// */
+main .about {
+  display: flex;
+  flex-direction: column;
+  margin: 20rem;
+}
+
+.about article {
+  width: 80%;
+  margin: auto;
+}
+
+.about picture img {
+ width: 100%;
+ height: auto;
+ padding: 0;
+}
+
+.about p {
+  text-align: left;
+  line-height: 1.5em;
+  padding: 1rem;
+}
+
+.about .map {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+

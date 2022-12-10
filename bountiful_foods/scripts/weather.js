@@ -1,9 +1,10 @@
 // select HTML elements in the document
 const currentTemp = document.querySelector('#current-temp');
-const currentCondition = document.querySelector('#currentCond')
+const currentCondition = document.querySelector('#currentCond');
 const captionDesc = document.querySelector('figcaption');
 const currenthumidity = document.querySelector('#current-humidity');
-
+const dailyHigh = document.querySelector('#high');
+const dailyLow = document.querySelector('#low');
 // Weather Data
 const apiURL = 'https://api.openweathermap.org/data/2.5/weather?q=Carlsbad&units=imperial&appid=79dabcb9110b08edb5788d12143addcb';
 
@@ -32,13 +33,15 @@ function displayResults(weatherData) {
   let temp = weatherData.main.temp;
   let desc = weatherData.weather[0].description;
   let humidity = weatherData.main.humidity;
+  // let high = weatherData.main.temp_max;
+  // let low = weather.Data.main.temp_min;
 
   currentTemp.innerHTML = `<strong>${temp.toFixed(0)}</strong>`;
   currentCondition.innerHTML = capitalize(desc);
-  windSpeed.innerHTML = `<strong>${speed.toFixed(0)}</strong>`;
-  weatherIcon.setAttribute('src', iconsrc);
-  weatherIcon.setAttribute('alt', desc);
   currenthumidity.innerHTML = (humidity);
+  // dailyHigh.innerHTML = `${high.toFixed(0)}`;
+  // dailyLow.innerHTML = `${low.toFixed(0)}`;
+
 }  
      
          

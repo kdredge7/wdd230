@@ -65,6 +65,11 @@ header h5 {
   font-size: 1em;
 }
 
+.hero h1 {
+  top: 350px;
+  left: 175px;
+}
+
 /* ////// MARKET INFORMATION //////// */
 #market {
   grid-column: 1 / span 2;

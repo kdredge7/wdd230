@@ -64,6 +64,7 @@
   .weather {
     grid-column: 1;
     grid-row: 3;
+    margin-left: 1em;
   }
 
   .strawberry-field {

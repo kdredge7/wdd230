@@ -172,6 +172,16 @@ header h5 {
   .hero_image img {
     width: 100%;
   }
+
+  .hero h1 {
+    position: absolute;
+    background: rgba(255, 255, 255, .7);
+    border-radius: 12px;
+    padding: 0.5em;
+    top: 250px;
+    left: 15px;
+    font-size: 1.5em;
+  }
   /* ////// MARKET INFORMATION //////// */
   .market_info {
     background-color: #BFB96E;
@@ -260,17 +270,16 @@ header h5 {
   background-color: #F89E53;
  }
 
- /* ////// FARM FIELD IMAGE //////// */
- .strawberry-field {
- margin-top: 30px;
- }
-
-
  /* ////// WEATHER //////// */
 .weather {
   background-color: #FFD374;
   padding: 1em;
   margin-top: 30px;
+}
+
+.weather_info {
+  display: flex;
+  flex-direction: column;
 }
 
 .weather h2 {

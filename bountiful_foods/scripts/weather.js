@@ -33,14 +33,14 @@ function displayResults(weatherData) {
   let temp = weatherData.main.temp;
   let desc = weatherData.weather[0].description;
   let humidity = weatherData.main.humidity;
-  // let high = weatherData.main.temp_max;
-  // let low = weather.Data.main.temp_min;
+  let high = weatherData.main.temp_max;
+  let low = weatherData.main.temp_min;
 
   currentTemp.innerHTML = `<strong>${temp.toFixed(0)}</strong>`;
   currentCondition.innerHTML = capitalize(desc);
   currenthumidity.innerHTML = (humidity);
-  // dailyHigh.innerHTML = `${high.toFixed(0)}`;
-  // dailyLow.innerHTML = `${low.toFixed(0)}`;
+  dailyHigh.innerHTML = `${high.toFixed(0)}`;
+  dailyLow.innerHTML = `${low.toFixed(0)}`;
 
 }  
      

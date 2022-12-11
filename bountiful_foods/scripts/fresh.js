@@ -1,5 +1,5 @@
 const requestURL = 'scripts/data.json';
-const produce = document.querySelector('.produce');
+const produce = document.querySelector('#produce');
 
 fetch(requestURL)
   .then(function(response) {
@@ -48,7 +48,7 @@ fetch(requestURL)
 
     // Add/append the existing HTML div with the cards class with the section(card)
     //  document.querySelector('div.cards').appendChild(card);
-    document.querySelector('.produce').appendChild(name);
+    document.querySelector('#produce').appendChild(name);
 
 
   }

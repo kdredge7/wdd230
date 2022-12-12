@@ -24,7 +24,7 @@ fetch(requestURL)
 
     // Change the textContent property of the h2 element to contain the produce name
     // h2.textContent = `${produceDirectory.name}`;
-    name.textContent = `Proudce: ${directory.name}`;
+    name.select = `Proudce: ${directory.name}`;
     calories.textContent = `Calories: ${directory.calories}`;
     carbohydrates.textContent = `Carbohdrates: ${directory.carbohydrates}`;
     protein.textContent = `Protein: ${directory.protein}`;

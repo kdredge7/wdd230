@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
-    <link rel="icon" href = "/" type="image/x-icon">
+    <link rel="icon" href = "images/favicon_io/favicon.ico" type="image/x-icon">
     <!-- Fonts Rokkitt & Montserrat-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -58,23 +58,16 @@
 
         <fieldset>
             <legend>Custom Juice Blend</legend>
-                <label class="fruit1">Choose First Item <input list="produce"></label>
-                <datalist id="produce">
-                    <option value="name">
-                    </option>
-                </datalist>
+            <div class="list">
+            <label for="produce">Choose your Juice Blend Item #1: </label>
+            <select list="produce" name="produce" id="produce"></select>
+            <label for="produce">Choose your Juice Blend Item #2: </label>
+            <select list="produce" name="produce" id="produce"></select>
+            <label for="produce">Choose your Juice Blend Item #3: </label>
+            <select list="produce" name="produce" id="produce"></select>
+            </div>
             <label class="top">Notes <input type="text" id="description" name="description" placeholder="Special instructions if needed..."></label>
         </fieldset>
-        <!-- <fieldset>
-            <legend>Custom Juice Blend</legend>
-            <label for="produce">Your choice of produce from the lists:</label>
-            <br><input list="produce" name="produce" id="produce">
-            <datalist id="produce">
-              <option value="name">
-            </datalist>
-            <input type="submit">
-          </form>
-        </fieldset> -->
         <input type="submit" value="Order Your Juice Blend" class="submitBtn">
         </form>
 

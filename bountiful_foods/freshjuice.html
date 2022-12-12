@@ -46,7 +46,7 @@
         <h1>Order Your Fresh Juice Blend</h1>
         <h3>Our Juice Blends are made FRESH with real fruit and vegetables.<br>
             <em>No pre-mixed or pre-made.</em></h3>
-        <form action="freshjuice.html" method="get">
+        <form action="/action_page.php" method="get">
 
         <fieldset>
             <legend>Order Information</legend>
@@ -59,23 +59,26 @@
         <fieldset>
             <legend>Custom Juice Blend</legend>
                 <label class="fruit1">Choose First Item <input list="produce"></label>
-                <datalist class="produce">
-                    <option value="name"><!--from API-->
+                <datalist id="produce">
+                    <option value="name">
                     </option>
-                </datalist>
-                <label class="fruit2">Choose Second Item <input list="produce"></label>
-                <datalist class="produce">
-                    <option value="name"><!--from API-->
-                    </option>
-                </datalist>
-                <label class="fruit3">Choose Third Item <input list="produce"></label>
-                <datalist class="produce">
-                    <option value="name"><!--from API-->
                 </datalist>
             <label class="top">Notes <input type="text" id="description" name="description" placeholder="Special instructions if needed..."></label>
         </fieldset>
+        <!-- <fieldset>
+            <legend>Custom Juice Blend</legend>
+            <label for="produce">Your choice of produce from the lists:</label>
+            <br><input list="produce" name="produce" id="produce">
+            <datalist id="produce">
+              <option value="name">
+            </datalist>
+            <input type="submit">
+          </form>
+        </fieldset> -->
         <input type="submit" value="Order Your Juice Blend" class="submitBtn">
         </form>
+
+        
 
 
     </main>

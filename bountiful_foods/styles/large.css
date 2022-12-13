@@ -73,12 +73,28 @@
   }
 
 /* ////// LOCATION //////// */
-#carlsbad {
+  #carlsbad {
     grid-column: 1 / span 3;
     grid-row: 4;
     margin-top: 30px;
   }
+
+  /* ////// FOOTER //////// */
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .social_media {
+    align-items: center;
+  }
+
+  .social_media img {
+    padding: 1em;
+  }
   
+
   
     
 

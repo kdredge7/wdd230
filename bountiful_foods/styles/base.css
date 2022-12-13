@@ -178,8 +178,8 @@ header h5 {
     background: rgba(255, 255, 255, .7);
     border-radius: 12px;
     padding: 0.5em;
-    top: 250px;
-    left: 15px;
+    top: 300px;
+    left: 65px;
     font-size: 1.5em;
   }
   /* ////// MARKET INFORMATION //////// */
@@ -408,7 +408,7 @@ form legend {
     padding: 0 1rem;
 }
 
-form label.top input, form label.top select, form label#produce option {
+form label.top input, form label.top select {
     -webkit-appearance: none;
     display: block;
     font-size: 1rem;
@@ -431,6 +431,7 @@ fieldset .list {
 fieldset .list select {
   padding: .5em;
   margin-bottom: .5em;
+  width: 80%;
   background-color: rgba(248,158,83,.2);
   border: solid 1px rgba(255, 255, 255, .7);
 }
@@ -445,11 +446,11 @@ form label.sbs {
     color: #ffd374;
 }
 
-form input .produce {
-    display:inline-block;
+form input select {
+    display: inline-block;
     font-size: 1rem;
     padding: .75rem;
-    width: 100%;
+    width: 75%;
     max-width: 18rem;
     background-color: rgba(248,158,83,.2);
 }
